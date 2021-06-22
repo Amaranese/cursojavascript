@@ -1,65 +1,65 @@
-# Desafio da semana #2
+# El reto de esta semana #2
 
-Nesse exercício, você está livre para escolher os nomes para suas variáveis e funções! :smile:
+En este ejercicio, eres libre de elegir los nombres de tus variables y funciones. :sonrisa:
 
-```js
-// Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
+``js
+// Crear una función que tome dos argumentos y devuelva la suma de los mismos.
 ?
 
-// Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
+// Declara una variable que toma la invocación de la función creada anteriormente, pasando dos números cualesquiera como argumentos, y añadiendo `5` al resultado devuelto por la función.
 ?
 
-// Qual o valor atualizado dessa variável?
+// ¿Cuál es el valor real de esta variable?
 ?
 
-// Declare uma nova variável, sem valor.
-?
-
-/*
-Crie uma função que adicione um valor à variável criada acima, e retorne a string:
-    O valor da variável agora é VALOR.
-Onde VALOR é o novo valor da variável.
-*/
-?
-
-// Invoque a função criada acima.
-?
-
-// Qual o retorno da função? (Use comentários de bloco).
+// Declarar una nueva variable, sin valor.
 ?
 
 /*
-Crie uma função com as seguintes características:
-1. A função deve receber 3 argumentos;
-2. Se qualquer um dos três argumentos não estiverem preenchidos, a função deve retornar a string:
-    Preencha todos os valores corretamente!
-3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
+Crea una función que añada un valor a la variable creada anteriormente y devuelva la cadena:
+    El valor de la variable es ahora VALOR.
+Donde VALOR es el nuevo valor de la variable.
 */
 ?
 
-// Invoque a função criada acima, passando só dois números como argumento.
+// Invoca la función creada anteriormente.
 ?
 
-// Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
-
-// Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-?
-
-// Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
+// ¿Cuál es el retorno de la función? (Utilice los comentarios en bloque).
 ?
 
 /*
-Crie uma função com as seguintes características:
-1. A função deve receber 3 argumentos.
-2. Se somente um argumento for passado, retorne o valor do argumento.
-3. Se dois argumentos forem passados, retorne a soma dos dois argumentos.
-4. Se todos os argumentos forem passados, retorne a soma do primeiro com o segundo, e o resultado, dividido pelo terceiro.
-5. Se nenhum argumento for passado, retorne o valor booleano `false`.
-6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
+Cree una función con las siguientes características:
+1. La función debe recibir 3 argumentos;
+2. Si alguno de los tres argumentos no se rellena, la función debe devolver la cadena:
+    Rellene todos los valores correctamente.
+3. La función debe devolver la multiplicación de los tres argumentos, añadiendo `2` al resultado de la multiplicación.
 */
 ?
 
-// Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
+// Invoca la función creada anteriormente, pasando sólo dos números como argumentos.
+?
+
+// ¿Cuál es el resultado de la invocación anterior? (Utilice los comentarios para mostrar el valor devuelto).
+?
+
+// Ahora invoca de nuevo la función creada anteriormente, pero pasando los tres argumentos.
+?
+
+// ¿Cuál es el resultado de la invocación anterior? (Utilice los comentarios para mostrar el valor de retorno).
+?
+
+/*
+Cree una función con las siguientes características:
+1. La función debe recibir 3 argumentos.
+2. Si sólo se pasa un argumento, devuelve el valor del mismo.
+3. Si se pasan dos argumentos, devuelve la suma de los dos argumentos.
+4. Si se pasan todos los argumentos, devuelve la suma del primer y segundo argumento, y el resultado, dividido por el tercero.
+5. Si no se pasan argumentos, devuelve el valor booleano `false`.
+6. Además, si no se cumple ninguna de las condiciones anteriores, devuelve `null`.
+*/
+?
+
+// Invoca la función anterior utilizando todas las posibilidades (sin argumentos, con uno, con dos y con tres.) Pon un comentario de línea al lado de la función con el resultado de cada invocación.
 ?
 ```
