@@ -1,157 +1,157 @@
-# Desafio da semana #3
+# Reto de la semana #3
 
-```js
-// Declarar uma variável qualquer, que receba um objeto vazio.
+``js
+// Declarar una variable de algún tipo, que reciba un objeto vacío.
 ?
 
 /*
-Declarar uma variável `pessoa`, que receba suas informações pessoais.
-As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
-- `nome` - String
-- `sobrenome` - String
-- `sexo` - String
-- `idade` - Number
-- `altura` - Number
-- `peso` - Number
-- `andando` - Boolean - recebe "falso" por padrão
-- `caminhouQuantosMetros` - Number - recebe "zero" por padrão
+Declarar una variable ``persona``, que recibe su información personal.
+Las propiedades y los tipos de valores para cada propiedad de este objeto deben ser:
+- `nombre` - Cadena
+- apellido" - Cadena
+- `sexo` - Cadena
+- age` - Número
+- altura` - Número
+- peso` - Número
+- walk' - Booleano - obtiene "false" por defecto
+- walkHow ManyMeters` - Número - obtiene "cero" por defecto
 */
 ?
 
 /*
-Adicione um método ao objeto `pessoa` chamado `fazerAniversario`. O método deve
-alterar o valor da propriedade `idade` dessa pessoa, somando `1` a cada vez que
-for chamado.
+Añade un método al objeto `persona` llamado `cumpleaños`. El método debe
+cambiar el valor de la propiedad "edad" de esta persona, añadiendo "1" cada vez
+se llama.
 */
 ?
 
 /*
-Adicione um método ao objeto `pessoa` chamado `andar`, que terá as seguintes
-características:
-- Esse método deve receber por parâmetro um valor que representará a quantidade
-de metros caminhados;
-- Ele deve alterar o valor da propriedade `caminhouQuantosMetros`, somando ao
-valor dessa propriedade a quantidade passada por parâmetro;
-- Ele deverá modificar o valor da propriedade `andando` para o valor
-booleano que representa "verdadeiro";
+Añade un método al objeto `persona` llamado `walk`, que tendrá lo siguiente
+propiedades:
+- Este método debe recibir como parámetro un valor que representará la cantidad
+metros recorridos;
+- Debe cambiar el valor de la propiedad `walkedQuantosMetros`, añadiendo la cantidad pasada por parámetro a
+añadiendo la cantidad pasada por parámetro al valor de esta propiedad;
+- Debe cambiar el valor de la propiedad `andando` por el valor booleano
+valor booleano que representa `true`;
 */
 ?
 
 /*
-Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
-da propriedade `andando` para o valor booleano que representa "falso".
+Añade un método al objeto `persona` llamado `stop`, que cambiará el valor
+al valor booleano que representa "false".
 */
 ?
 
 /*
-Crie um método chamado `nomeCompleto`, que retorne a frase:
-- "Olá! Meu nome é [NOME] [SOBRENOME]!"
+Crear un método llamado `fullName` que devuelva la declaración:
+- "¡Hola, me llamo [NOMBRE] [APELLIDO]!"
 */
 ?
 
 /*
-Crie um método chamado `mostrarIdade`, que retorne a frase:
-- "Olá, eu tenho [IDADE] anos!"
+Crear un método llamado `showAge`, que devuelva la declaración:
+- "¡Hola, tengo [EDAD] años!"
 */
 ?
 
 /*
-Crie um método chamado `mostrarPeso`, que retorne a frase:
-- "Eu peso [PESO]Kg."
+Crea un método llamado `mostrateWeight`, que devuelve la declaración:
+- "Peso [PESO]Kg".
 */
 ?
 
 /*
-Crie um método chamado `mostrarAltura` que retorne a frase:
-- "Minha altura é [ALTURA]m."
+Crear un método llamado `showHeight` que devuelva la declaración:
+- "Mi altura es [ALTURA]m".
 */
 ?
 
 /*
-Agora vamos brincar um pouco com o objeto criado:
-Qual o nome completo da pessoa? (Use a instrução para responder e comentários
-inline ao lado da instrução para mostrar qual foi a resposta retornada)
+Ahora vamos a jugar con el objeto que has creado:
+¿Cuál es el nombre completo de la persona? (Utilice el enunciado para responder y los comentarios
+comentarios en línea junto a la instrucción para mostrar lo que devolvió la respuesta)
 */
 ?
 
 /*
-Qual a idade da pessoa? (Use a instrução para responder e comentários
-inline ao lado da instrução para mostrar qual foi a resposta retornada)
+¿Cuál es la edad de la persona? (Utilice la instrucción para responder y
+en línea junto a la instrucción para mostrar cuál fue la respuesta)
 */
 ?
 
 /*
-Qual o peso da pessoa? (Use a instrução para responder e comentários
-inline ao lado da instrução para mostrar qual foi a resposta retornada)
+¿Cuál es el peso de la persona? (Utilice la instrucción para responder y
+en línea al lado de la instrucción para mostrar cuál era la respuesta devuelta)
 */
 ?
 
 /*
-Qual a altura da pessoa? (Use a instrução para responder e comentários
-inline ao lado da instrução para mostrar qual foi a resposta retornada)
+¿Cuál es la altura de la persona? (Utiliza la instrucción para responder y
+en línea junto a la instrucción para mostrar la respuesta devuelta)
 */
 ?
 
 /*
-Faça a `pessoa` fazer 3 aniversários.
+Haz que la `persona` tenga 3 cumpleaños.
 */
 ?
 
 /*
-Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
-comentários inline ao lado da instrução para mostrar qual foi a resposta
-retornada)
+¿Qué edad tiene ahora la "persona"? (Utilice la instrucción para responder y
+comentarios en línea junto al enunciado para mostrar cuál es la respuesta
+devuelto)
 */
 ?
 
 /*
-Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
-com metragens diferentes passadas por parâmetro.
+Ahora, haz que la `gente` camine unos metros, invocando el método `walk` 3 veces,
+con diferentes longitudes pasadas como parámetros.
 */
 ?
 
 /*
-A pessoa ainda está andando? (Use a instrução para responder e comentários
-inline ao lado da instrução para mostrar qual foi a resposta retornada)
+¿Sigue caminando la persona? (Utilice el enunciado para responder y
+comentarios en línea junto a la declaración para mostrar la respuesta obtenida)
 */
 ?
 
 /*
-Se a pessoa ainda está andando, faça-a parar.
+Si la persona sigue caminando, haz que se detenga.
 */
 ?
 
 /*
-E agora: a pessoa ainda está andando? (Use uma instrução para responder e
-comentários inline ao lado da instrução para mostrar a resposta retornada)
+Y ahora: ¿la persona sigue caminando? (Utilice una instrucción para responder y
+comentarios en línea junto a la instrucción para mostrar la respuesta devuelta)
 */
 ?
 
 /*
-Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
-inline ao lado da instrução para mostrar a resposta retornada)
+¿Cuántos metros caminó la persona? (Utilice una instrucción para responder y
+comentarios junto a la instrucción para mostrar la respuesta devuelta)
 */
 ?
 
 /*
-Agora vamos deixar a brincadeira um pouco mais divertida! :D
-Crie um método para o objeto `pessoa` chamado `apresentacao`. Esse método deve
-retornar a string:
-- "Olá, eu sou o [NOME COMPLETO], tenho [IDADE] anos, [ALTURA], meu peso é [PESO] e, só hoje, eu já caminhei [CAMINHOU QUANTOS METROS] metros!"
+¡Ahora vamos a hacer el juego un poco más divertido! :D
+Crear un método para el objeto `persona` llamado `presentación`. Este método debería
+devuelve la cadena:
+- "Hola, soy [NOMBRE COMPLETO], tengo [EDAD] años, [ALTURA], mi peso es [PESO], y justo hoy, he caminado [CAMINADO CUÁNTOS METROS] metros".
 
-Só que, antes de retornar a string, você vai fazer algumas validações:
-- Se o `sexo` de `pessoa` for "Feminino", a frase acima, no início da
-apresentação, onde diz "eu sou o", deve mostrar "a" no lugar do "o";
-- Se a idade for `1`, a frase acima, na parte que fala da idade, vai mostrar a
-palavra "ano" ao invés de "anos", pois é singular;
-- Se a quantidade de metros caminhados for igual a `1`, então a palavra que
-deve conter no retorno da frase acima é "metro" no lugar de "metros".
-- Para cada validação, você irá declarar uma variável localmente (dentro do
-método), que será concatenada com a frase de retorno, mostrando a resposta
-correta, de acordo com os dados inseridos no objeto.
+Sólo que, antes de devolver la cadena, vas a hacer algunas validaciones:
+- Si el `sexo` de la `persona` es "Mujer", la frase anterior, al principio de la
+arriba, donde dice "Yo soy el", debe mostrar "a" en lugar de "el";
+- Si la edad es `1`, la frase anterior, en la parte que habla de la edad, mostrará el
+año" en lugar de "años", porque es singular;
+- Si la cantidad de metros recorridos es igual a `1`, entonces la palabra que
+debería contener en la vuelta de la frase anterior es "metro" en lugar de "metros".
+- Para cada validación, se declarará una variable localmente (dentro del
+), que se concatenará con la declaración de retorno, mostrando la respuesta correcta
+según los datos introducidos en el objeto.
 */
 ?
 
-// Agora, apresente-se ;)
+// Ahora, preséntese ;)
 ?
 ```
