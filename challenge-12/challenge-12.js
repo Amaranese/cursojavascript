@@ -1,100 +1,100 @@
 /*
-Envolva todo o conteúdo desse arquivo em uma IIFE.
+Envuelve todo el contenido de este archivo en un IIFE.
 */
 
 /*
-Crie um objeto chamado `person`, com as propriedades:
-    `name`: String
-    `lastname`: String
-    `age`: Number
-Preencha cada propriedade com os seus dados pessoais, respeitando o tipo
-de valor para cada propriedade.
-*/
-// ?
-console.log( 'Propriedades de "person":' );
-
-/*
-Mostre no console, em um array, todas as propriedades do objeto acima.
-Não use nenhuma estrutura de repetição, nem crie o array manualmente.
+Crear un objeto llamado `persona`, con las propiedades:
+    `nombre`: Cadena
+    Apellido": Cadena
+    `Edad`: Número
+Rellene cada propiedad con sus datos personales, respetando la
+de valor para cada propiedad.
 */
 // ?
+console.log( 'Propiedades de la persona:' );
 
 /*
-Crie um array vazio chamado `books`.
+Mostrar en la consola, en un array, todas las propiedades del objeto anterior.
+No utilice ninguna estructura repetitiva, ni cree la matriz manualmente.
 */
 // ?
 
 /*
-Adicione nesse array 3 objetos, que serão 3 livros. Cada livro deve ter a
-seguintes propriedades:
-`name`: String
-`pages`: Number
-*/
-// ?
-console.log( '\nLista de livros:' );
-
-/*
-Mostre no console todos os livros.
-*/
-// ?
-
-console.log( '\nLivro que está sendo removido:' );
-/*
-Remova o último livro, e mostre-o no console.
-*/
-// ?
-
-console.log( '\nAgora sobraram somente os livros:' );
-/*
-Mostre no console os livros restantes.
+Crea un array vacío llamado `libros`.
 */
 // ?
 
 /*
-Converta os objetos que ficaram em `books` para strings.
+Añade a esta matriz 3 objetos, que serán 3 libros. Cada libro debe tener la
+las siguientes propiedades:
+`nombre`: Cadena
+`pages`: Número
 */
 // ?
-console.log( '\nLivros em formato string:' );
+console.log( 'Lista de libros:' );
 
 /*
-Mostre os livros nesse formato no console:
-*/
-// ?
-
-/*
-Converta os livros novamente para objeto.
-*/
-// ?
-console.log( '\nAgora os livros são objetos novamente:' );
-
-/*
-Mostre no console todas as propriedades e valores de todos os livros,
-no formato abaixo:
-    "[PROPRIEDADE]: [VALOR]"
+Mostrar todos los libros en la consola.
 */
 // ?
 
+console.log( 'Libro que se elimina:' );
 /*
-Crie um array chamado `myName`. Cada item desse array deve ser uma letra do
-seu nome. Adicione seu nome completo no array.
-*/
-// ?
-console.log( '\nMeu nome é:' );
-
-/*
-Juntando todos os itens do array, mostre no console seu nome.
+Saca el último libro y muéstralo en la consola.
 */
 // ?
 
-console.log( '\nMeu nome invertido é:' );
-
+console.log( 'Ahora sólo quedan los libros:' );
 /*
-Ainda usando o objeto acima, mostre no console seu nome invertido.
+Muestra los libros restantes en la consola.
 */
 // ?
 
-console.log( '\nAgora em ordem alfabética:' );
 /*
-Mostre todos os itens do array acima, odenados alfabéticamente.
+Convierte los objetos `libros` restantes en cadenas.
+*/
+// ?
+console.log( '\NLos libros en formato de cadena:' );
+
+/*
+Muestra los libros en este formato en la consola:
+*/
+// ?
+
+/*
+Vuelve a convertir los libros en objeto.
+*/
+// ?
+console.log( 'Ahora los libros son objetos de nuevo:' );
+
+/*
+Mostrar todas las propiedades y valores de todos los libros en la consola,
+en el formato siguiente:
+    "[PROPIEDAD]: [VALOR]"
+*/
+// ?
+
+/*
+Crea un array llamado `miNombre`. Cada elemento de esa matriz debe ser una letra de
+tu nombre. Añade tu nombre completo a la matriz.
+*/
+// ?
+console.log( 'Mi nombre es:' );
+
+/*
+Añadiendo todos los elementos del array, muestra su nombre en la consola.
+*/
+// ?
+
+console.log( '\NMi nombre invertido es:' );
+
+/*
+Siguiendo con el objeto anterior, muestra en la consola su nombre invertido.
+*/
+// ?
+
+console.log( 'Ahora en orden alfabético:' );
+/*
+Muestra todos los elementos de la matriz anterior, odenados alfabéticamente.
 */
 // ?
