@@ -1,31 +1,31 @@
 /*
-O desafio dessa semana é criar uma mini library (biblioteca) para
-reutilizarmos nossos códigos quando fizermos manipulação de DOM!
+El reto de esta semana consiste en crear una minibiblioteca para
+¡reutilizar nuestro código al hacer la manipulación del DOM!
 
 Requisitos:
-- O nome da lib deve ser "DOM".
-- Ela deve ser uma função construtora, que receberá uma string por parâmetro.
-Essa string será o nó do DOM a ser selecionado;
-- No construtor, você deve atribuir à `this.element` todos os elementos
-do DOM selecionados;
-- Extenda a lib para ter os métodos `on`, `off` e `get`.
-- O método `on` irá adicionar um listener de evento a todos os elementos
-selecionados.
-- O método `off` irá remover o listener de evento de todos os elementos
-selecionados.
-- O método `get` deve retornar os elementos.
-- O código abaixo deve funcionar corretamente após a lib criada.
+- El nombre de la lib debe ser "DOM".
+- Debe ser una función constructora, que recibirá una cadena como parámetro.
+Esta cadena será el nodo DOM a seleccionar;
+- En el constructor, debe asignar a `this.element` todos los
+elementos del DOM al `this.element`;
+- Extiende la librería para que tenga los métodos `on`, `off` y `get`.
+- El método `on` añadirá un oyente de eventos a todos los
+elementos.
+- El método `off` eliminará el oyente de eventos de todos los
+elementos.
+- El método `get` debe devolver los elementos.
+- El código que se muestra a continuación debería funcionar correctamente una vez creada la librería.
 
-Dica: olhe os erros que acontecem no console, e vá resolvendo um a um.
-Só passe para o próximo problema quando tiver resolvido o anterior :)
+Sugerencia: observe los errores que se producen en la consola, y trabaje con ellos uno por uno.
+Sólo pasa al siguiente problema cuando haya resuelto el anterior :)
 */
 // ?
 
 var $a = new DOM('[data-js="link"]');
 $a.on('click', function(e) {
   e.preventDefault();
-  console.log('clicou');
+  console.log('clicked');
 });
 
-console.log('Elementos selecionados:', $a.get());
-console.log('$a é filho de body?', $a.get()[0].parentNode === document.body);
+console.log('Elementos seleccionados:', $a.get());
+console.log('¿$a es hijo de body?', $a.get()[0].parentNode == document.body);
