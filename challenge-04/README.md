@@ -1,122 +1,122 @@
-# Desafio da semana #4
+# Desafío de la semana #4
 
-```js
+``js
 /*
-Declare uma variável chamada `isTruthy`, e atribua a ela uma função que recebe
-um único parâmetro como argumento. Essa função deve retornar `true` se o
-equivalente booleano para o valor passado no argumento for `true`, ou `false`
-para o contrário.
+Declare una variable llamada `esTruthy`, y asígnele una función que tome
+un único parámetro como argumento. Esta función debe devolver `true` si el
+El equivalente booleano del valor pasado en el argumento es `true`, o `false`.
+de lo contrario.
 */
 ?
 
-// Invoque a função criada acima, passando todos os tipos de valores `falsy`.
+// Invoca la función creada anteriormente, pasando todo tipo de valores `falsos`.
 ?
 
 /*
-Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
-*/
-?
-
-/*
-Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
-seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
-- `marca` - String
-- `modelo` - String
-- `placa` - String
-- `ano` - Number
-- `cor` - String
-- `quantasPortas` - Number
-- `assentos` - Number - cinco por padrão
-- `quantidadePessoas` - Number - zero por padrão
+Invoca la función creada anteriormente pasando 10 valores `truthy` como parámetros.
 */
 ?
 
 /*
-Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
-passado por parâmetro.
+Declarar una variable llamada `car`, y asignarle un objeto con el
+(los valores deben ser del tipo que se muestra a continuación):
+- `marca` - Cadena
+- modelo'' - Cadena
+- placa'' - Cadena
+- año` - Número
+- `color` - Cadena
+- `cuántosPuertos` - Número
+- seats` - Número - cinco por defecto
+- `numberPeople` - Número - cero por defecto
 */
 ?
 
 /*
-Crie um método chamado `obterCor`, que retorne a cor do carro.
+Crear un método llamado `changeColor` que cambie el color del coche según el color
+pasado como parámetro.
 */
 ?
 
 /*
-Crie um método chamado `obterModelo` que retorne o modelo do carro.
+Crea un método llamado `obterColor` que devuelva el color del coche.
 */
 ?
 
 /*
-Crie um método chamado `obterMarca` que retorne a marca do carro.
+Crea un método llamado `obterModel` que devuelva el modelo del coche.
 */
 ?
 
 /*
-Crie um método chamado `obterMarcaModelo`, que retorne:
-"Esse carro é um [MARCA] [MODELO]"
-Para retornar os valores de marca e modelo, utilize os métodos criados.
+Crea un método llamado `obterMarque` que devuelva la marca del coche.
 */
 ?
 
 /*
-Crie um método que irá adicionar pessoas no carro. Esse método terá as
-seguintes características:
-- Ele deverá receber por parâmetro o número de pessoas entrarão no carro. Esse
-número não precisa encher o carro, você poderá acrescentar as pessoas aos
-poucos.
-- O método deve retornar a frase: "Já temos [X] pessoas no carro!"
-- Se o carro já estiver cheio, com todos os assentos já preenchidos, o método
-deve retornar a frase: "O carro já está lotado!"
-- Se ainda houverem lugares no carro, mas a quantidade de pessoas passadas por
-parâmetro for ultrapassar o limite de assentos do carro, então você deve
-mostrar quantos assentos ainda podem ser ocupados, com a frase:
-"Só cabem mais [QUANTIDADE_DE_PESSOAS_QUE_CABEM] pessoas!"
-- Se couber somente mais uma pessoa, mostrar a palavra "pessoa" no retorno
-citado acima, no lugar de "pessoas".
+Crear un método llamado `obterMakerModel` que devuelva:
+"Este coche es un [MARCA] [MODELO]"
+Para devolver los valores de la marca y el modelo, utiliza los métodos que has creado.
 */
 ?
 
 /*
-Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
-utilize sempre o formato de invocação do método (ou chamada da propriedade),
-adicionando comentários _inline_ ao lado com o valor retornado, se o método
-retornar algum valor.
-
-Qual a cor atual do carro?
+Crea un método que añada personas al carro. Este método tendrá lo siguiente
+las siguientes características:
+- Debe recibir por parámetro el número de personas que entrarán en el coche. Este
+número no necesita llenar el coche, puede añadir gente poco a poco.
+poco a poco.
+- El método debe devolver la frase: "¡Ya tenemos [X] personas en el coche!"
+- Si el coche ya está lleno, con todos los asientos ya ocupados, el método
+debería devolver la declaración: "¡El coche ya está lleno!"
+- Si todavía hay asientos en el coche, pero la cantidad de gente que pasó
+excede el límite del asiento del coche, entonces debe
+mostrar cuántos asientos pueden ser ocupados todavía, con la frase:
+"¡Sólo caben [CANTIDAD_DE_PERSONAS_CABLE] más personas!"
+- Si sólo cabe una persona más, muestre la palabra "persona" en la devolución
+arriba, en lugar de "personas".
 */
 ?
 
-// Mude a cor do carro para vermelho.
+/*
+Ahora vamos a comprobar alguna información sobre el coche. Para las respuestas de abajo,
+utilice siempre el formato de invocación de métodos (o llamada a propiedades),
+añadir comentarios _inline_ junto al valor devuelto, si el método
+devuelve un valor.
+
+¿Cuál es el color actual del coche?
+*/
 ?
 
-// E agora, qual a cor do carro?
+// Cambia el color del coche a rojo.
 ?
 
-// Mude a cor do carro para verde musgo.
+// Y ahora, ¿de qué color es el coche?
 ?
 
-// E agora, qual a cor do carro?
+// Cambia el color del coche a verde musgo.
 ?
 
-// Qual a marca e modelo do carro?
+// Y ahora, ¿de qué color es el coche?
 ?
 
-// Adicione 2 pessoas no carro.
+// ¿Cuál es la marca y el modelo del coche?
 ?
 
-// Adicione mais 4 pessoas no carro.
+// Añade 2 personas en el coche.
 ?
 
-// Faça o carro encher.
+// Añade 4 personas más en el coche.
 ?
 
-// Tire 4 pessoas do carro.
+// Haz que el coche se llene.
 ?
 
-// Adicione 10 pessoas no carro.
+// Saca a 4 personas del coche.
 ?
 
-// Quantas pessoas temos no carro?
+// Añade 10 personas al coche.
+?
+
+// ¿Cuántas personas hay en el coche?
 ?
 ```
