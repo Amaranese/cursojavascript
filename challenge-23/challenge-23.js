@@ -1,25 +1,25 @@
 /*
-Vamos desenvolver mais um projeto. A ideia é fazer uma mini-calculadora.
-As regras são:
+Vamos a desarrollar un proyecto más. La idea es hacer una mini calculadora.
+Las reglas son:
 
-- Deve ter somente 1 input, mas não deve ser possível entrar dados nesse input
-diretamente;
-- O input deve iniciar com valor zero;
-- Deve haver 10 botões para os números de 0 a 9. Cada botão deve ser um número;
-- Deve haver 4 botões para as operações principais: soma (+), subtração(-),
-multiplicação(x) e divisão(÷);
-- Deve haver um botão de "igual" (=) que irá calcular os valores e um botão "CE"
-que irá limpar o input, deixando-o com valor 0;
+- Debe tener sólo 1 entrada, pero no debe ser posible introducir datos en esa entrada
+directamente;
+- La entrada debe comenzar con un valor de cero;
+- Debe haber 10 botones para los números del 0 al 9. Cada botón debe ser un número;
+- Debe haber 4 botones para las operaciones principales: suma (+), resta(-),
+multiplicación(x), y división(÷);
+- Debe haber un botón "igual" (=) que calculará los valores y un botón "CE"
+que borrará la entrada, dejándola con un valor de 0;
 
-- A cada número pressionado, o input deve atualizar concatenando cada valor
-digitado, como em uma calculadora real;
-- Ao pressionar um botão com uma das 4 operações, deve aparecer o símbolo da
-operação no input. Se o último caractere no input já for um símbolo de alguma
-operação, esse caractere deve ser substituído pelo último pressionado.
-Exemplo:
-- Se o input tem os valores: "1+2+", e for pressionado o botão de
-multiplicação (x), então no input deve aparecer "1+2x".
-- Ao pressionar o botão de igual, o resultado do cálculo deve ser mostrado no
-input;
-- Ao pressionar o botão "CE", o input deve ficar zerado.
+- A cada pulsación de un número, la entrada debe actualizarse concatenando cada valor
+valor, como en una calculadora real;
+- Al pulsar un botón con una de las 4 operaciones, debe aparecer el símbolo de
+debe aparecer en la entrada. Si el último carácter de la entrada ya es un símbolo de alguna operación
+este carácter debe ser sustituido por el último pulsado.
+Ejemplo:
+- Si la entrada tiene los valores: "1+2+", y el
+Si se pulsa el botón de multiplicación (x), entonces debe aparecer "1+2x" en la entrada.
+- Al pulsar el botón de igualdad, el resultado del cálculo debe aparecer en el
+entrada;
+- Al pulsar el botón "CE", la entrada debe ponerse a cero.
 */
