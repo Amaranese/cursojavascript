@@ -1,97 +1,97 @@
-/*
-Envolva todo o código desse desafio em uma IIFE.
+*
+Envuelve todo el código de este reto en un IIFE.
 */
 
 /*
-Crie um array chamado numberObjects. Esse array deve ter 10 elementos. Cada
-elemento será um objeto no formato:
-{ number: [NUMBER] }
-Os números devem ser de 1 a 10.
-Mostre esse array no console.
+Crea un array llamado numberObjects. Esta matriz debe tener 10 elementos. Cada
+será un objeto con el formato
+{ número: [NÚMERO] }
+Los números deben ser del 1 al 10.
+Muestra esta matriz en la consola.
 */
-console.log( 'Number Objects Array:' );
+console.log( 'Número de objetos Array:' );
 // ?
 
 /*
-Crie um array chamado `justNumbers`, que terá como elementos somente os
-números do array criado acima. Mostre esse novo array no console.
+Crear un array llamado `sóloNúmeros`, que tendrá como elementos sólo los
+los números de la matriz creada anteriormente. Muestra esta nueva matriz en la consola.
 */
-console.log( '\nJust Numbers:' );
+console.log( '\N-Sólo números:' );
 // ?
 
 /*
-Crie um novo array chamado `justMod2Or3`, que receberá do array criado acima
-somente os números que forem divisíveis por 2 ou 3. Mostre esse novo array
-no console.
+Crea un nuevo array llamado `justMod2Or3`.
+sólo los números que son divisibles por 2 ó 3. Visualiza esta nueva matriz
+en la consola.
 */
-console.log( '\nJust module of division by 2 or 3:' );
+console.log( '\N-Único módulo de división por 2 ó 3:' );
 // ?
 
 /*
-Declare uma variável chamada operation que receba, do array criado acima,
-um valor reduzido pela seguinte operação:
-- Somar 1 ao último valor retornado;
-- Multiplicar o resultado pelo valor atual.
-O cálculo deve começar com zero.
-Mostre o resultado no console.
+Declara una variable llamada operación que recibe, del array creado anteriormente,
+un valor reducido por la siguiente operación:
+- Suma 1 al último valor devuelto;
+- Multiplica el resultado por el valor actual.
+El cálculo debe empezar por cero.
+Muestra el resultado en la consola.
 */
-console.log( '\nOperation:' );
+console.log( '\N-operación:' );
 // ?
 
 /*
-Faça o mesmo cálculo passado acima, mas começando do último item para o
-primeiro. O nome da variável deve ser operation2. Mostre o resultado no
-console.
+Haga el mismo cálculo que el anterior, pero empezando por el último elemento hasta el
+primero. El nombre de la variable debe ser operación2. Mostrar el resultado en el
+consola.
 */
-console.log( '\nOperation 2:' );
+console.log( '\N-operación 2:' );
 // ?
 
 /*
-Crie um array chamado `name`. Cada elemento desse array deve ser uma sílaba
-do seu nome. Vamos reduzir esse array, juntando todas as sílabas, mas usando
-a "língua do P".
-PS.: Lembra da língua do "P"? Não? A língua do "P" é uma brincadeira
-infantil, onde você coloca a letra "P" antes de cada sílaba de uma palavra
-falada, como se você estivesse falando em código xD
+Crea un array llamado `nombre`. Cada elemento de esta matriz debe ser una sílaba
+de su nombre. Reduciremos esta matriz, sumando todas las sílabas, pero utilizando
+la "lengua P".
+PD: ¿Se acuerda del lenguaje "P"? ¿No? La lengua de "P" es un juego de niños
+niños, donde se pone la letra "P" antes de cada sílaba de una palabra hablada
+hablado, como si hablaras en clave xD
 */
-console.log( '\nSeu nome na língua do "P":' );
+console.log( '\N-Su nombre en el idioma "P":' );
 // ?
 
 /*
-Crie uma variável chamada `inversedName`, que reduzirá o array em uma string
-e atribuirá o seu nome invertido (usando o array criado acima).
+Crear una variable llamada `inversedName`, que reducirá el array a una cadena
+y asignar su nombre invertido (utilizando el array creado anteriormente).
 */
-console.log( '\nInversed Name:' );
+console.log( '\NnInversedName:' );
 // ?
 
 /*
-Mostre no console o array `numberObjects`.
+Muestra el array `numberObjects` en la consola.
 */
-console.log( '\nNumber objects' );
+console.log( '\NNnúmero de objetos' );
 // ?
 
 /*
-Verifique se existem em algum índice de numberObjects um objeto ìgual a
-{ number: 2 }. Se houver, mostre no console:
-- "Existe um objeto { number: 2 } em numberObjects!"
-Senão, mostre a frase:
-- "Não existe um objeto { number: 2 } em numberObjects :("
-Consegue prever o resultado? Deixe uma mensagem no console tentando explicar
-o que acontece ;)
+Comprueba si algún índice de numberObjects contiene un objeto igual a
+{ número: 2 }. Si lo hay, muéstralo en la consola:
+- "¡Hay un objeto { número: 2 } en numberObjects!"
+En caso contrario, muestra la declaración:
+- "No hay ningún objeto { number: 2 } en numberObjects :("
+¿Puedes predecir el resultado? Deja un mensaje en la consola tratando de explicar
+lo que sucede ;)
 */
-console.log( '\nExiste um { number: 2 } em numberObjects?' );
+console.log( '¿Hay un objeto { número: 2 } en númeroObjetos?' );
 // ?
 
 /*
-Fazendo o mesmo do exercício acima, mas começando a buscar do último índice,
-será que obtemos um resultado diferente? Faça a busca a partir do índice 2.
+Haciendo lo mismo que el ejercicio anterior, pero empezando a buscar desde el último índice,
+¿obtendríamos un resultado diferente? Haga la búsqueda a partir del índice 2.
 */
-console.log( '\nE buscando a partir do último índice, o { number: 2 } existe?' );
+console.log( '\N-obteniendo el último índice, ¿existe { número: 2 }?' );
 // ?
 
 /*
-Verifique se `justMod2Or3` é um array. Se for, mostre-o no console, no
-formato de String.
+Comprueba si `justMod2Or3` es un array. Si lo es, muéstralo en la consola, en
+Formato de cadena.
 */
-console.log( '\njustMod2Or3 é um array? Se for, a representação dele em String é:' );
+console.log( ``¿Es `soloMod2Or3` un array? Si es así, su representación en cadena es:'' );
 // ?
