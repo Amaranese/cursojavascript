@@ -1,54 +1,54 @@
-// Envolva todo o código desse arquivo em uma IIFE (incluindo esse comentário).
+// Envuelve todo el código de este archivo en un IIFE (incluyendo este comentario).
 
 /*
-Crie uma variável chamada `once`, que recebe `false` como seu valor.
-Crie um loop que execute enquanto essa variável for verdadeira. Dentro do
-loop, mostre no console a mensagem:
-'Entrou ao menos uma vez!'
-Qual loop você deve usar para que essa mensagem seja mostrada no console?
+Crea una variable llamada `once`, que toma `false` como valor.
+Crea un bucle que se ejecuta mientras esta variable es verdadera. Dentro de la
+mostrar el mensaje en la consola:
+"¡Entró al menos una vez!
+¿Qué bucle debe utilizar para que este mensaje se muestre en la consola?
 */
 // ?
 
 /*
-Crie um objeto chamado `person`, que receba as seguintes propriedades:
-- 'name', 'age', 'weight' e 'birthday'. Preencha com os valores corretos
-para o nome, idade, peso e data de nascimento dessa pessoa.
+Crea un objeto llamado `persona`, con las siguientes propiedades:
+- Nombre, edad, peso y fecha de nacimiento. Rellénalo con los valores correctos
+para el nombre, la edad, el peso y la fecha de nacimiento de esta persona.
 */
 // ?
 
 /*
-Use um loop para percorrer o objeto criado acima, mostrando no console
-a frase:
-'The [PROPERTY] of person is [VALUE]'
-Aproveite e crie uma variável `counter` que vai contar quantas propriedades
-esse objeto tem.
-Após o loop, mostre a frase:
-'The person has [COUNTER] properties'
+Utiliza un bucle para recorrer el objeto creado anteriormente, mostrando en la consola
+la declaración:
+La [PROPIEDAD] de la persona es [VALOR]".
+Crear una variable `counter` que cuente cuántas propiedades
+que tiene este objeto.
+Después del bucle, muestra la frase:
+La persona tiene propiedades [CONTADOR]".
 */
 // ?
 
 /*
-Crie uma função chamada `moreThan`, que vai verificar se a pessoa (objeto
-criado acima) é mais velha que a idade passada por parâmetro.
-Se verdadeiro, retornar `true`. Senão, retornar false.
-Após a função, mostrar a mensagem no console:
-'The person has more than 25 years old? [TRUE/FALSE]'
+Crear una función llamada `moreThan` que compruebe si la persona (objeto
+creado anteriormente) es mayor que la edad pasada como parámetro.
+Si es verdadero, devuelve `true`. En caso contrario, devuelve false.
+Después de la función, mostrar el mensaje en la consola:
+'¿La persona tiene más de 25 años? [TRUE/FALSE]".
 */
 // ?
 
 /*
-Faça um loop de 0 a 20, que adicione cada número como um item de um
-array chamado `numbers`. Se o contador for maior que 10, saia do loop.
-Mostre no console os números no array.
+Hacer un bucle de 0 a 20, que añada cada número como un elemento a un
+matriz llamada "números". Si el contador es mayor que 10, se sale del bucle.
+Muestra los números de la matriz en la consola.
 */
 console.log( 'De 0 a 10:' );
 // ?
 
 /*
-Faça outro loop de 0 a 20, que adicione a um array chamado `numbers` (já
-criado acima, só precisa ser reiniciado) números de 0 a 20, inclusive
-esses. Se o número for ímpar, pular para o próximo número.
-Mostrar no console os números do array.
+Hacer otro bucle de 0 a 20, que se añade a una matriz llamada `números` (ya
+creado anteriormente, sólo necesita ser reiniciado) números del 0 al 20, incluyendo
+estos. Si el número es impar, salta al siguiente número.
+Muestra los números de la matriz en la consola.
 */
-console.log( 'Pares de 0 a 20:' );
+console.log( 'Números impares de 0 a 20:' )
 // ?
