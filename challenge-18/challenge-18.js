@@ -1,89 +1,84 @@
 /*
-1. Envolva todo o conteúdo desse desafio em uma IIFE.
-2. Adicione a diretiva 'use strict';
-3. Crie um arquivo index.html e adicione esse script à ele.
+Envuelve todo el contenido de este reto en un IIFE.
+2. Añade la directiva 'use strict';
+3. Cree un archivo index.html y añada este script a él.
 */
 
 /*
-Crie uma função chamada `cleanCPF`, que receba um CPF por parâmetro, e
-retorne esse CPF limpo (somente os números).
-Usando os CPFs abaixo, mostre no console que a limpeza funciona para todos
-eles! Use um console.log para cada CPF.
+Crear una función llamada `cleanCPF` que toma un CPF como parámetro, y
+y devuelve un CPF limpio (sólo los números).
+Usando los números de abajo, muestra en la consola que la limpieza funciona para todos ellos.
+¡a ellos! Utilice un console.log para cada CPF.
 - "049-214 3421-1"
 - "210.458.522-05"
 - "735 500 794 - 22"
 - "101.123-131x32"
 */
-console.log( 'Limpando CPFs:' );
+console.log( 'Clearing CPFs:' );
 // ?
 
 /*
-Usando os CPFs limpos acima, deixe-os com a formatação correta de CPF.
-Ex.: "999.999.999-99"
-Mostre o resultado no console.
+Usando los CPFs limpiados arriba, déjelos con el formato correcto de CPF.
+Por ejemplo: "999,999,999-99"
+Muestra el resultado en la consola.
 */
-console.log( '\nFormatando CPFs corretamente:' );
+console.log( '\NFormateando CPFs correctamente:' );
 // ?
 
 /*
-Crie uma expressão regular que faça match com as palavras "junho" ou "julho",
-usando o mínimo de caracteres possíveis na regex.
-Para garantir que a regex funciona, teste-a usando o método match. Se houver
-o match, o método retorna um array com os matches. Caso contrário, ele
-retornará null.
-Mostre no console o resultado do match para a frase:
-"Os meses de janeiro, junho e julho começam com a letra j."
-O resultado deve ser:
-["junho", "julho"]
+Cree una expresión regular que coincida con las palabras "junio" o "julio",
+utilizando el menor número posible de caracteres en la regex.
+Para asegurarse de que la expresión regular funciona, pruébela utilizando el método de coincidencia. Si usted
+el método devuelve una matriz de coincidencias. De lo contrario, se
+devuelve null.
+Muestra el resultado de la coincidencia de la frase en la consola:
+"Los meses de enero, junio y julio comienzan con la letra j".
+El resultado debería ser:
+["Junio", "Julio"]
 */
-console.log( '\nMatch com as palavras "junho" ou "julho" para a frase "Os meses de janeiro, junho e julho começam com a letra j.":' );
+console.log( '\Ncon las palabras "junio" o "julio" para la frase "Los meses de enero, junio y julio empiezan por la letra j":' );
 // ?
 
 /*
-Crie uma expressão regular que faça o match com a abertura de uma tag
-HTML qualquer.
-Ex.: "<div>", "<section>", "<blockquote>".
-Use o método match e faça o teste com a marcação abaixo:
+Crear una expresión regular que coincida con la apertura de cualquier
+etiqueta.
+Por ejemplo, "<div>", "<section>", "<blockquote>".
+Utilice el método de coincidencia y ejecute la prueba con la siguiente marca:
 "<div><section><blockquote>Texto <img /></blockquote></section></div>"
-O resultado deve ser:
+El resultado debería ser:
 ["<div>", "<section>", "<blockquote>"]
 */
-console.log( '\nMatch com a abertura de uma tag HTML:' );
+console.log( '\Ncon la apertura de una etiqueta HTML:' );
 // ?
 
 /*
-Crie uma expressão regular que faça o match com uma tag HTML vazia, casando
-com a abertura e fechamento da tag.
-Ex.: "<div></div>", "<section></section>", "<blockquote></blockquote>".
-Use o método match e faça o teste com a marcação abaixo:
-"<div><ul><li></li><li></li><li><span></span></li></ul></div>"
-O resultado deve ser:
-["<li></li>", "<li></li>", "<span></span>"]
+Crear una expresión regular que coincida con una etiqueta HTML vacía, que coincida con
+con la apertura y el cierre de la etiqueta.
+Por ejemplo, "<div></div>", "<sección></sección>", "<blockquote></blockquote>".
+Utilice el método de coincidencia y pruebe con el etiquetado siguiente:
+"<div><div><ul><li/li><li><li><span></li></ul></div>"
+El resultado debería ser:
+["<li></li>", "<li></li>", "<span></span></span>"]
 */
-console.log( '\nMatch com tags HTML vazias (abertura e fechamento da tag):' );
+console.log( '\N- coincidencia con etiquetas HTML vacías (etiqueta de apertura y cierre):' );
 // ?
 
 /*
-Vamos complicar um pouco agora :D
-
-Crie uma expressão regular que faça o match com um texto existente dentro de
-uma tag HTML. O texto deve ser capturado e substituído por:
-'O texto dentro da tag "[NOME DA TAG]" é "[TEXTO]"'
-
-Use a marcação abaixo para fazer o replace:
-"<h1>Título da página</h1><p>Este é um parágrafo</p><footer>Rodapé</footer>"
-
-A marcação deve permanecer como está, somente o texto deve ser substituído.
-No replace, utilize quebras de linha para deixar uma tag por linha.
-
-O resultado deve ser esse:
-<h1>O texto dentro da tag "h1" é "Título da página"</h1>
-<p>O texto dentro da tag "p" é "Este é um parágrafo"</p>
-<footer>O texto dentro da tag "footer" é "Rodapé"</footer>
-
-Uma dica: faça o match aos poucos. Para facilitar o teste, use o site
-https://regex101.com/#javascript e verifique se as capturas estão
-corretas, para depois aplicar no código ;)
+Vamos a complicarlo un poco ahora :D
+Crear una expresión regular que coincida con el texto existente dentro de
+Etiqueta HTML. El texto debe ser capturado y sustituido por:
+'El texto dentro de la etiqueta "[NOMBRE DE LA ETIQUETA]" es "[TEXTO]"'
+Utiliza la marca de abajo para hacer el reemplazo:
+"<h1>Título de la página</h1><p>Esto es un párrafo</p><footer>Pie de página</footer>"
+El marcado debe permanecer como está, sólo el texto debe ser reemplazado.
+En el reemplazo, utilice saltos de línea para dejar una etiqueta por línea.
+El resultado debería ser el siguiente:
+<h1>El texto dentro de la etiqueta "h1" es "Título de la página"</h1>
+<p>El texto dentro de la etiqueta "p" es "Esto es un párrafo"</p>
+<footer>El texto dentro de la etiqueta "footer" es "Footer"</footer>.
+Un consejo: haz el partido poco a poco. Para facilitar las pruebas, utilice el sitio
+https://regex101.com/#javascript y comprobar si las capturas son
+las capturas son correctas, y luego aplicarlas al código ;)
 */
-console.log( '\nFazer replace dos textos das tags:' );
+console.log( '\NReemplazar las etiquetas de texto:' );
 // ?
