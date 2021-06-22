@@ -1,42 +1,42 @@
-# Desafio Semana #1
+# Desafío Semana #1
 
-```js
-// Declarar uma variável chamada `myvar`, sem valor.
+``js
+// Declarar una variable llamada `myvar`, sin valor.
 ?
 
-// Após declarada, atribua o valor 10 à variável `myvar`.
+// Una vez declarado, asigna el valor 10 a la variable `myvar`.
 ?
 
-// Declare uma nova variável chamada `soma`, e adicione uma instrução somando os valores 15 e 8.
+// Declara una nueva variable llamada `suma`, y añade una sentencia que sume los valores 15 y 8.
 ?
 
-// Atribua à variável `soma` todo o valor dela, somando 1, usando o operador de soma abreviado.
+// Asigna a la variable `suma` el valor completo de la misma, añadiendo 1, utilizando el operador abreviado de suma.
 ?
 
-// Atribua à variável `soma` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
+// Asigna a la variable `suma` el valor completo de la misma, multiplicando por 3, utilizando el operador abreviado de multiplicación.
 ?
 
-// Qual é o valor da variável `soma` até aqui?
+// ¿Cuál es el valor de la variable `suma` hasta ahora?
 ?
 
-// Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
+// Declarar una variable llamada `souninja`, asignándole un valor booleano que representa `true`.
 ?
 
-// Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
+// Declarar una variable llamada `food`, dado un array con los valores `rice`, `bean` y `egg`.
 ?
 
-// Digite a instrução que imprime o valor de 'feijao', que está na variável `comida`.
+// Escriba la instrucción que imprime el valor de `beans`, que está en la variable `food`.
 ?
 
-// Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
+// Escriba el código para comprobar si la variable `sum` es igual a la variable `myvar` (también prueba de tipo).
 ?
 
-// Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
+// Introduce el código para comprobar si la variable `myvar` es menor o igual que la variable `sum`.
 ?
 
-// Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
+// Crea una función llamada `divide` que toma dos números como parámetro, y devuelve el resultado de la división entre ellos.
 ?
 
-// Invoque a função criada acima, passando os parâmetros 10 e 2.
+// Invoca la función creada anteriormente, pasando los parámetros 10 y 2.
 ?
 ```
