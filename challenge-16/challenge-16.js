@@ -1,70 +1,70 @@
 /*
-1. Envolva todo o conteúdo desse desafio em uma IIFE.
-2. Adicione a diretiva 'use strict';
-3. Crie um arquivo index.html e adicione esse script à ele.
+Envuelve todo el contenido de este reto en un IIFE.
+2. Añade la directiva 'use strict';
+3. Cree un archivo index.html y añada este script a él.
 */
 
 /*
-Declare uma variável chamada `name` que receba seu primeiro nome.
-Mostre no console todas as letras do seu nome separadas, com a frase:
-- "[LETRA] é a [POSIÇÃO]ª letra do meu nome."
-Ex: no caso do nome ser "Fernando", deve mostrar as frases:
-- "F é a 1ª letra do meu nome."
-- "e é a 2ª letra do meu nome."
-E assim por diante, até a última.
+Declara una variable llamada `nombre` para tomar tu nombre.
+Muestra en la consola todas las letras de su nombre separadas, con la frase:
+- "[LETRA] es la [POSICIÓN]ª letra de mi nombre".
+Ej: en caso de que el nombre sea "Fernando", debe mostrar las frases:
+- "La F es la primera letra de mi nombre".
+- "La e es la segunda letra de mi nombre".
+Y así sucesivamente, hasta el último.
 */
-console.log( 'As letras do seu nome:' );
+console.log( 'Las letras de tu nombre:' );
 // ?
 
 /*
-- Declare uma variável chamada `fullName`, que receba seu nome completo,
-escrito no formato de slug (caixa baixa e palavras separadas por um traço).
-Ex: o nome "Fernando Daciuk" ficaria "fernando-daciuk"
-- Faça a primeira letra de cada nome ficar em caixa alta, e troque o traço
-por um espaço.
-- Detalhe: o código que você escrever abaixo deve funcionar para qualquer
-nome, então fique à vontade para usar as artimanhas que já viu até agora no
-curso para fazer isso funcionar corretamente :)
-- Mostre no console o nome no formato slug, e o resultado final. Use um
+- Declara una variable llamada `fullName`, que obtiene tu nombre completo,
+escrito en formato slug (minúsculas y palabras separadas por un guión).
+Ejemplo: el nombre "Fernando Daciuk" sería "fernando-daciuk".
+- Poner la primera letra de cada nombre en mayúscula, y sustituir el guión
+para un espacio.
+- Nota: el código que se escribe a continuación debería funcionar para cualquier nombre, así que no dudes en utilizar
+así que no dudes en utilizar los trucos que has visto hasta ahora en el curso para hacer
+curso para que funcione correctamente :)
+- Muestra el nombre en formato slug en la consola, y el resultado final. Utilice un
 console.log para cada formato.
 */
-console.log( '\nNome convertido à partir de um slug:' );
+console.log( 'Nombre de la empresa convertido de la babosa:' );
 // ?
 
 /*
-- Crie um array com 5 nomes. Reduza esses nomes a uma única string, separando
-cada nome por vírgula. Entre o penúltimo e o último nome, o separador deve
-ser um "e". No final, concatene com a frase: " são meus amigos.".
-O resultado final deve ficar mais ou menos assim:
-- "João, Maria, Roberto, Pedro e Marcos são meus amigos."
-- Detalhe: o código abaixo deve funcionar com um array de qualquer tamanho.
-5 nomes foi somente uma sugestão ;)
+- Crea un array de 5 nombres. Reduzca esos nombres a una sola cadena, separando
+cada nombre con una coma. Entre el penúltimo nombre, el separador debe
+ser un "y". Al final, concatena con la frase: "son mis amigos".
+El resultado final debería ser algo así:
+- "John, Mary, Robert, Peter y Mark son mis amigos".
+- Detalle: el código siguiente debería funcionar con un array de cualquier tamaño.
+5 nombres era sólo una sugerencia ;)
 */
-console.log( '\nMeus amigos:' );
+console.log( '\NMis amigos:' );
 // ?
 
 /*
-Usando o replace(), faça a string "Roberto" virar "Roberta".
-Mostre o resultado no console.
+Usando replace(), haz que la cadena "Roberto" se convierta en "Roberta".
+Muestra el resultado en la consola.
 */
-console.log( '\nEra "Roberto", agora é:' );
+console.log( '\N-era "Roberto", ahora es:' );
 // ?
 
 /*
-Mostre no console a parte "nando" da string "Fernando". Use o método que
-faz a busca do final para o início da string.
+Mostrar la parte "nando" de la cadena "Fernando" en la consola. Utilice el método que
+realiza la búsqueda desde el final hasta el principio de la cadena.
 */
-console.log( '\nParte de uma string:' );
+console.log( 'parte de una cadena:' );
 // ?
 
 /*
-Declare uma variável chamada `myName`, que receba o seu primeiro nome,
-escrito de forma natural.
-Mostre no console esse nome, mas com as letras intercalando entre maiúsculas
-e minúsculas.
-- Detalhe: o código abaixo deve funcionar da mesma forma para qualquer nome,
-de qualquer tamanho, escrito de qualquer forma.
-Ex.: Nomes que deveriam funcionar: "Fernando", "RoBertO", "gabriEla", etc.
+Declarar una variable llamada `miNombre`, que obtiene su primer nombre,
+escrito en forma natural.
+Mostrar este nombre en la consola, pero con las letras en mayúsculas y minúsculas
+y minúsculas.
+- Nota: el código siguiente debería funcionar igual para cualquier nombre,
+de cualquier longitud, escrito de cualquier manera.
+Por ejemplo: Nombres que deberían funcionar: "Fernando", "RoBertO", "gabriEla", etc.
 */
-console.log( '\nNome com letras intercaladas entre caixa alta e baixa:' );
+console.log( 'Nombre con letras intercaladas entre mayúsculas y minúsculas:' );
 // ?
