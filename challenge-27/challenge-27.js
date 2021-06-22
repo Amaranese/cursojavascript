@@ -1,21 +1,21 @@
 /*
-Aproveitando a lib DOM que fizemos na semana anterior, crie agora para ela
-métodos semelhantes aos que existem no array, mas que sirvam para os
-elementos do DOM selecionados.
-Crie os seguintes métodos:
-- forEach, map, filter, reduce, reduceRight, every e some.
+Aprovechando la librería DOM que hicimos la semana pasada, crea ahora para ella
+métodos que son similares a los de la matriz, pero que funcionan para el
+elementos DOM seleccionados.
+Crea los siguientes métodos:
+- forEach, map, filter, reduce, reduceRight, every y some.
 
-Crie também métodos que verificam o tipo do objeto passado por parâmetro.
-Esses métodos não precisam depender de criar um novo elmento do DOM, podem
-ser métodos estáticos.
+También crea métodos que comprueban el tipo del objeto pasado como parámetro.
+Estos métodos no necesitan depender de la creación de un nuevo elemento DOM, pueden ser estáticos
+sean métodos estáticos.
 
-Métodos estáticos não obrigam o uso do `new`, podendo ser usados diretamente
-no objeto, como nos exemplos abaixo:
+Los métodos estáticos no tienen que usar `new`, pueden ser usados directamente en el objeto.
+en el objeto, como en los ejemplos siguientes:
 DOM.isArray([1, 2, 3]); // true
 DOM.isFunction(function() {}); // true
-DOM.isNumber('numero'); // false
+DOM.isNumber('número'); // false
 
-Crie os seguintes métodos para verificação de tipo:
+Cree los siguientes métodos para la comprobación de tipos:
 - isArray, isObject, isFunction, isNumber, isString, isBoolean, isNull.
-O método isNull deve retornar `true` se o valor for null ou undefined.
+El método isNull debe devolver `true` si el valor es nulo o indefinido.
 */
