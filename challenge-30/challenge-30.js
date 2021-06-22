@@ -1,32 +1,32 @@
 /*
-A loja de carros será nosso desafio final. Na aula anterior, você fez a parte
-do cadastro dos carros. Agora nós vamos começar a deixar ele com cara de
-projeto mesmo.
+El taller de coches será nuestro último reto. En la lección anterior, hiciste el
+parte de la matriculación de los coches. Ahora vamos a empezar a hacer que parezca un
+proyecto como.
 
-Crie um novo repositório na sua conta do GitHub, com o nome do seu projeto.
+Crea un nuevo repositorio en tu cuenta de GitHub, con el nombre de tu proyecto.
 
-Na hora de criar, o GitHub te dá a opção de criar o repositório com um
-README. Use essa opção.
+Al crear, GitHub te da la opción de crear el repositorio con un
+LÉAME. Utiliza esta opción.
 
-Após criar o repositório, clone ele na sua máquina.
+Después de crear el repositorio, clónalo en tu máquina.
 
-Crie uma nova branch chamada `challenge-30`, e copie tudo o que foi feito no
-desafio da aula anterior para esse novo repositório, nessa branch
-`challenge-30`.
+Cree una nueva rama llamada `reto-30`, y copie todo lo que hizo en la rama
+reto a este nuevo repositorio, en esta rama
+"Reto 30".
 
-Adicione um arquivo na raiz desse novo repositório chamado `.gitignore`.
-O conteúdeo desse arquivo deve ser somente as duas linhas abaixo:
+Añade un archivo a la raíz de este nuevo repositorio llamado `.gitignore`.
+El contenido de este archivo debe ser sólo las dos líneas siguientes:
 
 node_modules
 npm-debug.log
 
-Faça as melhorias que você achar que são necessárias no seu código, removendo
-duplicações, deixando-o o mais legível possível, e então suba essa alteração
-para o repositório do seu projeto.
+Realice las mejoras que considere necesarias en su código, eliminando
+duplicados, haciéndolo lo más legible posible, y luego subir ese cambio
+al repositorio de su proyecto.
 
-Envie um pull request da branch `challenge-30` para a `master` e cole aqui
-nesse arquivo, dentro do `console.log`, o link para o pull request no seu
-projeto.
+Envía un pull request de la rama `challenge-30` al `master` y pégalo aquí
+a este archivo, dentro de `console.log`, el enlace al pull request en su
+proyecto.
 */
 
-console.log('Link do pull request do seu projeto');
+console.log('Enlace desde el pull request de tu proyecto');
