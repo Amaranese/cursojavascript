@@ -1,27 +1,27 @@
   /*
-  No HTML:
-  - Crie um formulário com um input de texto que receberá um CEP e um botão
-  de submit;
-  - Crie uma estrutura HTML para receber informações de endereço:
-  "Logradouro, Bairro, Estado, Cidade e CEP." Essas informações serão
-  preenchidas com os dados da requisição feita no JS.
-  - Crie uma área que receberá mensagens com o status da requisição:
-  "Carregando, sucesso ou erro."
+  En HTML:
+  - Crear un formulario con una entrada de texto que recibirá un código postal y un
+  botón de enviar;
+  - Crear una estructura HTML para recibir la información de la dirección:
+  "Dirección, barrio, estado, ciudad y código postal". Esta información será
+  rellenado con los datos de la solicitud realizada en JS.
+  - Cree un área que recibirá mensajes con el estado de la solicitud:
+  "Cargando, éxito o error".
 
-  No JS:
-  - O CEP pode ser entrado pelo usuário com qualquer tipo de caractere, mas
-  deve ser limpo e enviado somente os números para a requisição abaixo;
-  - Ao submeter esse formulário, deve ser feito um request Ajax para a URL:
-  "https://viacep.com.br/ws/[CEP]/json/", onde [CEP] será o CEP passado
-  no input criado no HTML;
-  - Essa requisição trará dados de um CEP em JSON. Preencha campos na tela
-  com os dados recebidos.
-  - Enquanto os dados são buscados, na área de mensagens de status, deve mostrar
-  a mensagem: "Buscando informações para o CEP [CEP]..."
-  - Se não houver dados para o CEP entrado, mostrar a mensagem:
-  "Não encontramos o endereço para o CEP [CEP]."
-  - Se houver endereço para o CEP digitado, mostre a mensagem:
-  "Endereço referente ao CEP [CEP]:"
-  - Utilize a lib DOM criada anteriormente para facilitar a manipulação e
-  adicionar as informações em tela.
+  En JS:
+  - El código postal puede ser introducido por el usuario con cualquier tipo de carácter, pero
+  debe ser aclarado y enviado sólo los números para la solicitud de abajo;
+  - Al enviar este formulario, se debe hacer una petición Ajax a la URL:
+  "https://viacep.com.br/ws/[zip]/json/", donde [zip] será el código postal pasado
+  en la entrada creada en el HTML;
+  - Esta solicitud mostrará un código postal en JSON. Rellenar los campos de la pantalla
+  con los datos recibidos.
+  - Mientras se obtienen los datos, en el área de estado de los mensajes, debe aparecer
+  el mensaje: "Buscando información para ZIP [código postal]..."
+  - Si no hay datos para el código postal introducido, aparecerá el mensaje:
+  "No hemos podido encontrar la dirección del código postal [ZIP Code]".
+  - Si hay una dirección para el código postal introducido, muestra el mensaje:
+  "Dirección referida al código postal [ZIP Code]:"
+  - Utiliza la librería DOM creada anteriormente para facilitar la manipulación y
+  añadir la información en pantalla.
   */
