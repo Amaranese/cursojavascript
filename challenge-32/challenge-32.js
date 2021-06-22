@@ -1,35 +1,35 @@
 /*
-Já temos as funcionalidades de adicionar e remover um carro. Agora, vamos persistir esses dados, 
-salvando-os temporariamente na memória de um servidor.
+Ya tenemos la funcionalidad de añadir y eliminar un coche. Ahora, vamos a persistir en estos datos, 
+guardándolo temporalmente en la memoria de un servidor.
 
-Nesse diretório do `challenge-32` tem uma pasta `server`. É um servidor simples, em NodeJS, para 
-que possamos utilizar para salvar as informações dos nossos carros.
+En ese directorio `challenge-32` hay una carpeta `server`. Es un simple servidor NodeJS 
+que podemos utilizar para guardar la información de nuestros coches.
 
-Para utilizá-lo, você vai precisar fazer o seguinte:
+Para utilizarlo, tendrás que hacer lo siguiente:
 
-- Via terminal, acesse o diretório `server`;
-- execute o comando `npm install` para instalar as dependências;
-- execute `node app.js` para iniciar o servidor.
+- A través del terminal, acceda al directorio `server`;
+- ejecutar el comando `npm install` para instalar las dependencias;
+- ejecuta `node app.js` para iniciar el servidor.
 
-Ele irá ser executado na porta 3000, que pode ser acessada via browser no endereço: 
+Se ejecutará en el puerto 3000, al que se puede acceder a través de un navegador en: 
 `http://localhost:3000`
 
-O seu projeto não precisa estar rodando junto com o servidor. Ele pode estar em outra porta.
-As mudanças que você irá precisar fazer no seu projeto são:
+Tu proyecto no tiene que estar funcionando en el servidor. Puede estar en otro puerto.
+Los cambios que tendrás que hacer en tu proyecto son:
 
-- Para listar os carros cadastrados ao carregar o seu projeto, faça um request GET no endereço
-`http://localhost:3000/car`
-- Para cadastrar um novo carro, faça um POST no endereço `http://localhost:3000/car`, enviando
-os seguintes campos:
-  - `image` com a URL da imagem do carro;
-  - `brandModel`, com a marca e modelo do carro;
-  - `year`, com o ano do carro;
-  - `plate`, com a placa do carro;
-  - `color`, com a cor do carro.
+- Para listar los coches registrados al cargar su proyecto, haga una petición GET a la dirección
+`http://localhost:3000/car`.
+- Para matricular un coche nuevo, haga un POST a la dirección `http://localhost:3000/car`, enviando
+los siguientes campos:
+  - `image`, con la URL de la imagen del coche;
+  - `marcaModelo`, con la marca y el modelo del coche;
+  - `year`, con el año del coche;
+  - `plate`, con la matrícula del coche;
+  - color", con el color del coche.
 
-Após enviar o POST, faça um GET no `server` e atualize a tabela para mostrar o novo carro cadastrado.
+Después de enviar el POST, haz un GET al `servidor` y actualiza la tabla para mostrar el nuevo coche.
 
-Crie uma branch `challenge-32` no seu projeto, envie um pull request lá e cole nesse arquivo a URL
-do pull request.
+Crea una rama `challenge-32` en tu proyecto, envía un pull request allí y pega en ese archivo la URL
+de la solicitud de extracción.
 */
-console.log('Link do pull request do seu projeto');
+console.log('Enlace desde el pull request de tu proyecto');

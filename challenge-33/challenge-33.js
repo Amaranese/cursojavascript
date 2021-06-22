@@ -1,29 +1,29 @@
 /*
-Hora de finalizar nosso projeto!
+Es hora de terminar nuestro proyecto.
 
-Já temos o cadastro funcionando e persistindo em memória;
-Já estamos deletando o carro da tabela (no frontend).
+Ya tenemos el registro funcionando y persistiendo en la memoria;
+Ya estamos borrando el coche de la tabla (en el frontend).
 
-Mas se você perceber, se você recarregar a tela, o carro ainda vai estar lá.
-Agora você precisa fazer com que, ao clicar no botão de deletar, o carro seja
-removido da tabela e também seja deletado do servidor.
+Pero si te fijas, si recargas la pantalla, el coche seguirá estando ahí.
+Ahora hay que hacer que cuando se pulse el botón de borrar, el coche sea
+se eliminará de la tabla y también se borrará del servidor.
 
-Para fazer isso, você precisa enviar o verbo HTTP "DELETE" para a mesma URL
-que você faz o POST para cadastrar o carro:
-`http://localhost:3000/car`, só que, ao invés de enviar todas as informações
-do carro, como você faz para cadastrar, você deve enviar somente a placa
-do carro.
+Para ello es necesario enviar el verbo HTTP "DELETE" a la misma URL
+que hiciste el POST para registrar el coche:
+`http://localhost:3000/car`, sólo que en lugar de enviar toda la información
+información, como lo hace para el registro, debe enviar sólo la matrícula
+del coche.
 
-Fazendo isso, ao recarregar a tela, a tabela deve mostrar os carros atualizados.
+Al hacer esto, cuando recargues la pantalla, la tabla debería mostrar los coches actualizados.
 
-A lógica do servidor que está criada nesso diretório desse desafio é o mesmo
-do desafio anterior, com a diferença que, nesse desafio, nós temos a
-implementação da regra para a deleção do carro =)
+La lógica del servidor que se crea en este directorio de retos es la misma
+desafío anterior, con la diferencia de que en este desafío tenemos
+aplicación de la regla de eliminación de coches =)
 
-A regra é a mesma das anteriores: crie uma branch `challenge-33` no seu
-repositório do GitHub, e envie o pull request para lá.
+La regla es la misma que las anteriores: crear una rama `reto-33` en su
+y envíe el pull request allí.
 
-Depois, envie um pull request no repositório do curso, colocando no console.log
-abaixo a URL do pull request no seu repositório.
+Luego, envía un pull request al repositorio del curso, poniendo en la consola.log
+debajo de la URL del pull request en su repositorio.
 */
-console.log('Link do pull request do seu projeto');
+console.log('Enlace desde el pull request de tu proyecto');
