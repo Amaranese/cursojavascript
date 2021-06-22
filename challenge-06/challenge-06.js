@@ -1,66 +1,66 @@
 /*
-Vamos falar um pouco sobre "Futebol". Escolha um campeonato estadual qualquer
-para começar o desafio.
-Declare uma variável chamada `championship` que receberá o nome do campeonato,
-e imprima o nome desse campeonato no console.
+Hablemos un poco de "Fútbol". Elija cualquier campeonato estatal
+para iniciar el reto.
+Declara una variable llamada `campeonato` para que sea nombrada como tal,
+e imprimir el nombre de ese campeonato en la consola.
 */
 // ?
 
 /*
-Declare uma variável chamada `teams`, que receberá um array com 5 elementos.
-Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
-estar na ordem em que eles aparecem na tabela no momento da solução desse
-desafio.
+Declara una variable llamada `equipos` para contener un array de 5 elementos.
+Los elementos serán nombres de equipos de la liga que elijas, y los nombres deberán
+en el orden en que aparecen en la tabla en el momento de resolver esta
+desafío.
 */
 // ?
 
-console.log( 'Times que estão participando do campeonato:', teams );
+console.log( 'Equipos que participan en la liga:', equipos );
 
 /*
-Crie uma função chamada `showTeamPosition` com as seguintes características:
-    - A função deve receber um número por parâmetro;
-    - A função deve retornar a frase:
-    "O time que está em [POSIÇÃO]º lugar é o [NOME DO TIME].";
-    - Onde [POSIÇÃO] é o valor passado por parâmetro e [NOME DO TIME] é o time
-    que está nessa posição no array criado acima com os nomes dos times.
+Crear una función llamada `showTeamPosition` con las siguientes características:
+    - La función debe recibir un número como parámetro;
+    - La función debe devolver la declaración:
+    "El equipo que está en [POSICIÓN]1er lugar es [NOMBRE DEL EQUIPO]";
+    - Donde [POSICIÓN] es el valor pasado por parámetro y [NOMBRE DEL EQUIPO] es el equipo
+    que está en esa posición en el array creado anteriormente con los nombres de los equipos.
     --------------
-    Dica: lembre-se que arrays começam no índice zero, então a posição passada
-    deve ser sempre um número a mais que o índice do array ;)
+    Sugerencia: recuerde que las matrices comienzan en el índice cero, por lo que la posición pasada
+    debe ser siempre un número más que el índice de la matriz ;)
     --------------
-    - A função só deve retornar a frase acima somente se o time estiver entre
-    os 5 primeiros.
-    - Se não houver time para a posição passada, deve retornar a mensagem:
-    "Não temos a informação do time que está nessa posição."
+    - La función debe devolver la frase anterior sólo si el equipo está en el top 5.
+    los 5 primeros.
+    - Si no hay ningún equipo para la posición dada, debería devolver el mensaje:
+    "No tenemos la información del equipo que está en esa posición".
 */
 // ?
 
 /*
-Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
-função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
+Elija 4 equipos de la liga seleccionada y muestre su posición, utilizando el
+función de arriba. Entre estos 4, añade 1 que no esté en el top 5.
 */
 // ?
 
 /*
-Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
-repetição "while".
+Muestra los números del 20 al 30 en la consola (incluyendo el 30), utilizando el
+estructura de repetición "while".
 */
 // ?
 
 /*
-Crie uma função chamada `convertToHex`, com as seguintes características:
-    - A função recebe uma cor por parâmetro, do tipo string. Exemplo: "red";
-    - Escolha 5 cores que serão convertidas do nome da cor para o seu
-    equivalente hexadecimal (pode ser qualquer tom);
-    - Usando a estrutura switch, verifique se a cor passada por parâmetro é
-    algum hexa escolhido. Se for, retorne a frase:
-    "O hexadecimal para a cor [COR] é [HEXADECIMAL].";
-    - Se a cor passada por parâmetro não estiver entre as selecionadas, mostre
-    a frase:
-    "Não temos o equivalente hexadecimal para [COR]."
+Crear una función llamada `convertToHex`, con las siguientes características:
+    - La función recibe un color por parámetro, de tipo cadena. Ejemplo: "rojo";
+    - Elija 5 colores que se convertirán del nombre del color a su
+    equivalente hexadecimal (puede ser cualquier tono);
+    - Utilizando la estructura del interruptor, comprueba si el color pasado por parámetro es
+    cualquier hexágono elegido. Si lo es, devuelve la declaración:
+    "El hexadecimal del color [COLOR] es [HEXADECIMAL]";
+    - Si el color pasado por parámetro no está entre los seleccionados, muestra
+    la sentencia:
+    "No tenemos el equivalente hexadecimal para [COLOR]".
 */
 // ?
 
 /*
-Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
+Intenta mostrar el hexadecimal de 8 colores diferentes utilizando la función creada anteriormente.
 */
 // ?
