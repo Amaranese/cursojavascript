@@ -1,54 +1,54 @@
 /*
-Envolva todo o código desse desafio em uma IIFE.
-Crie um arquivo chamado index.html e adicione esse script ao HTML.
+Envuelve todo el código de este reto en un IIFE.
+Crea un archivo llamado index.html y añade este script al HTML.
 */
 
 /*
-Crie uma função construtora chamada "Person". Esse construtor deve ter
-as seguintes características:
-- Deve receber 3 parâmetros: `name`, `lastName` e `age`;
-- Deverá ter 3 propriedades:
-  - `name` - que receberá o valor do parâmetro `name`;
-  - `lastName` - que receberá o valor do parâmetro `lastName`;
-  - `age` - que receberá o valor do parâmetro `age`;
-- Deverá ter 3 métodos:
-  - `getFullName` - que deve retornar o nome completo do objeto criado,
-  no formato:
-    - "[NAME] [LASTNAME]"
-  - `getAge` - que deverá retornar a idade (age);
-  - `addAge` - esse método não deverá ter nenhum parâmetro, mas ao invocá-lo
-  iremos passar um único argumento, que é a quantidade de anos que devem ser
-  adicionados à idade original (age). Esse método deverá retornar o objeto
-  que será instanciado.
+Crea una función constructora llamada "Persona". Este constructor debe tener
+las siguientes características:
+- Debe recibir 3 parámetros: `nombre`, `apellido` y `edad`;
+- Debe tener 3 propiedades:
+  - `nombre` - que recibirá el valor del parámetro `nombre`;
+  - `lastName` - que tomará el valor del parámetro `lastName`;
+  - `age` - que tomará el valor del parámetro `age`;
+- Debe tener 3 métodos:
+  - `getFullName` - que debe devolver el nombre completo del objeto creado,
+  en el formato:
+    - `[NOMBRE] [APELLIDO]`
+  - `getAge` - que debería devolver la edad;
+  - `addAge` - este método no debería tener parámetros, pero al llamarlo
+  le pasaremos un único argumento, que es el número de años que deben ser
+  añadidos a la edad original. Este método debe devolver el
+  que se va a instanciar.
 */
 // ?
 
 /*
-Crie 3 novos objetos usando o construtor acima. Os objetos serão novas
-pessoas. As variáveis deverão ser o primeiro nome da pessoa. Passe os
-parâmetros corretamente para o construtor para criar as novas pessoas.
-Mostre as 3 novas pessoas criadas no console (Um console.log por pessoa).
+Crea 3 nuevos objetos utilizando el constructor anterior. Los objetos serán nuevos
+personas. Las variables deben ser el nombre de la persona. Pasar la información correcta
+correctamente al constructor para crear el nuevo pueblo.
+Muestra las 3 nuevas personas creadas en la consola (un console.log por persona).
 */
-console.log( 'Novas pessoas criadas à partir de Person:' );
+console.log( 'Nuevas personas creadas a partir de Persona:' );
 // ?
 
 /*
-Mostre no console o nome completo de cada pessoa.
+Muestra el nombre completo de cada persona en la consola.
 */
-console.log( '\nNomes das pessoas:' );
+console.log( '\NnNnombre de la persona:' ); ?
 // ?
 
 /*
-Mostre no console as idades de cada pessoa, com a frase:
-- "[NOME COMPLETO] tem [IDADE] anos."
+Muestra en la consola las edades de cada persona, con la frase:
+- "[NOMBRE COMPLETO] tiene [EDAD] años".
 */
-console.log( '\nIdade das pessoas:' );
+console.log( '\Nde personas:' );
 // ?
 
 /*
-Adicione alguns anos à cada pessoa, e mostre no console a nova idade de
-cada um. A frase deverá ser no formato:
-- "[NOME COMPLETO] agora tem [NOVA IDADE] anos."
+Añade unos años a cada persona, y muestra en la consola la nueva edad de
+edad de cada persona. La frase debe tener el formato:
+- "[NOMBRE COMPLETO] tiene ahora [NUEVA EDAD] años".
 */
-console.log( '\nNova idade das pessoas:' );
+console.log( '\N-Nueva edad de las personas:' );
 // ?
