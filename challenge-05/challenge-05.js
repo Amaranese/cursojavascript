@@ -1,76 +1,76 @@
 /*
-Crie uma variável qualquer, que receba um array com alguns valores aleatórios
-- ao menos 5 - (fica por sua conta os valores do array).
+Crea una variable cualquiera, que recibe un array con algunos valores aleatorios
+- al menos 5 - (depende de ti qué valores poner en el array).
 */
 // ?
 
 /*
-Crie uma função que receba um array como parâmetro, e retorne esse array.
+Crea una función que toma un array como parámetro y devuelve ese array.
 */
 // ?
 
 /*
-Imprima o segundo índice do array retornado pela função criada acima.
+Imprime el segundo índice del array devuelto por la función anterior.
 */
 // ?
 
 /*
-Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
-segundo, um número. A função deve retornar o valor de um índice do array que foi passado
-no primeiro parâmetro. O índice usado para retornar o valor, deve ser o número passado no
-segundo parâmetro.
+Cree una función que tome dos parámetros: el primero, un array de valores; y el segundo
+segundo, un número. La función debe devolver el valor de un índice del array que se ha pasado
+en el primer parámetro. El índice utilizado para devolver el valor, debe ser el número pasado en el
+segundo parámetro.
 */
 // ?
 
 /*
-Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
+Declara una variable que recibe un array de 5 valores, de diferentes tipos.
 */
 // ?
 
 /*
-Invoque a função criada acima, fazendo-a retornar todos os valores do último
-array criado.
+Invoca la función creada anteriormente, haciendo que devuelva todos los valores de la última
+array creado.
 */
 // ?
 
 /*
-Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
-livro. Dentro dessa função, declare uma variável que recebe um objeto com as
-seguintes características:
-- esse objeto irá receber 3 propriedades, que serão nomes de livros;
-- cada uma dessas propriedades será um novo objeto, que terá outras 3
-propriedades:
-    - `quantidadePaginas` - Number (quantidade de páginas)
-    - `autor` - String
-    - `editora` - String
-- A função deve retornar o objeto referente ao livro passado por parâmetro.
-- Se o parâmetro não for passado, a função deve retornar o objeto com todos
-os livros.
+Crear una función llamada `libro` que tome un parámetro, que será el nombre del
+libro. Dentro de esta función, declare una variable que reciba un objeto con el valor
+las siguientes propiedades:
+- este objeto recibirá 3 propiedades, que serán nombres de libros;
+- cada una de estas propiedades será un nuevo objeto, que tendrá otros tres
+propiedades:
+    - `pageQuantity` - Número (número de páginas)
+    - `autor` - Cadena
+    - publisher` - Cadena
+- La función debe devolver el objeto libro pasado como parámetro.
+- Si no se pasa el parámetro, la función debe devolver el objeto con todos los
+libros.
 */
 // ?
 
 /*
-Usando a função criada acima, imprima o objeto com todos os livros.
+Utilizando la función creada anteriormente, imprime el objeto con todos los libros.
 */
 // ?
 
 /*
-Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
-usando a frase:
-"O livro [NOME_DO_LIVRO] tem [X] páginas!"
+Todavía con la función anterior, imprime el número de páginas de cualquier libro,
+utilizando la frase:
+"¡El libro [BOOK_NAME] tiene [X] páginas!"
 */
 // ?
 
 /*
-Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
-a frase:
-"O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
+También con la función anterior, imprime el nombre del autor de cualquier libro, utilizando
+la sentencia:
+"El autor del libro [NOMBRE_LIBRO] es [AUTOR]".
 */
 // ?
 
 /*
-Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
-a frase:
-"O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
+También con la función anterior, imprime el nombre del editor de un libro cualquiera, utilizando
+la sentencia:
+"El libro [NOMBRE_LIBRO] fue publicado por la editorial [NOMBRE_EDITOR]".
 */
 // ?
