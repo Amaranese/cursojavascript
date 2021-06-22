@@ -1,84 +1,84 @@
 /*
-1. Envolva todo o conteúdo desse desafio em uma IIFE.
-2. Adicione a diretiva 'use strict';
-3. Crie um arquivo index.html e adicione esse script à ele.
+Envuelve todo el contenido de este reto en un IIFE.
+2. Añade la directiva 'use strict';
+3. Cree un archivo index.html y añada este script a él.
 */
 
 /*
-Alguns detalhes importantes que faltou falar na aula:
-1. O objeto RegExp() pode receber um segundo parâmetro, que são as flags:
-- var justNumbersAndLetters = new RegExp( '[\\da-z]', 'gi' );
-2. Como a expressão regular passada para o objeto RegExp() é uma string,
-ela pode ser concatenada para gerar uma regex em tempo de execução,
-diferente da regex literal, onde toda a regex precisa estar pronta antes
-da utilização.
+Algunos detalles importantes que se nos escaparon en clase:
+1. El objeto RegExp() puede recibir un segundo parámetro, que son las banderas:
+- var justNumbersAndLetters = new RegExp( '[\da-z]', 'gi' );
+2. Dado que la expresión regular pasada al objeto RegExp() es una cadena,
+se puede concatenar para generar una regex en tiempo de ejecución,
+regex, donde la regex completa debe estar lista antes de su uso.
+uso.
 */
 
 /*
-- Usando o construtor de Regex, crie uma regex que case somente com números
-no início da string. O match precisa ser feito para todas as
-correspondências de qualquer string, não somente para a primeira, ainda que
-esta tenha muitas linhas, deve sempre casar com números no início de cada
-linha, independente de quantos caracteres de número estiverem juntos.
-- Atribua essa regex à uma variável chamada `justNumbersRegex` e mostre-a
-no console:
+- Utilizando el constructor Regex, cree una regex que sólo case números
+al principio de la cadena. La coincidencia debe hacerse con todas las coincidencias de cualquier cadena, no sólo con la primera
+coincide con cualquier cadena, no sólo con la primera, incluso si tiene
+aunque tenga muchas líneas, siempre debe coincidir con los números al principio de cada
+línea, no importa cuántos caracteres numéricos estén juntos.
+- Asigna esta regex a una variable llamada `justNumbersRegex` y muéstrala
+en la consola:
 */
-console.log( 'Regex para números usando o construtor:' );
+console.log( 'Regex para números usando el constructor:' );
 // ?
 
 /*
-Verifique se a regex acima casa com o texto na variável `text`, mostrando o
-resultado no console. O resultado deve ser:
+Compruebe que la expresión regular anterior coincide con el texto de la variable `text`, mostrando el
+resultado en la consola. El resultado debería ser:
 "[ '10', '50' ]"
 */
-var text = '10 anos.\n50 discos vendidos.\nE nem 10% dos meus amigos o conhece.';
-console.log( '\nNúmeros no início da linha do texto:\n' + text, '\n' );
+var text = '10 años.\N50 discos vendidos.\NY ni siquiera el 10% de mis amigos lo saben'.
+console.log( '\NNNnúmeros al principio de la línea de texto:\N' + texto, '\N' );
 // ?
 
 /*
-- Crie uma regex que case com números no final de uma string. Atribua a
-regex à uma variável chamada `numbersAtTheEnd`.
-- A regex deve casar com todas as correspondências de qualquer string, ainda
-que esta tenha muitas linhas, deve sempre casar com números no fim de cada
-linha, independente de quantos caracteres de número estiverem juntos.
-Mostre a regex no console:
+- Crear una regex que case números al final de una cadena. Asignar el
+regex a una variable llamada `numbersAtTheEnd`.
+- La regex debe coincidir con todas las coincidencias de cualquier cadena, incluso si
+tiene muchas líneas, siempre debe coincidir con los números al final de cada línea
+línea, no importa cuántos caracteres numéricos se encadenen.
+Muestra la regex en la consola:
 */
-console.log( '\nRegex para números somente no final das linhas:' );
+console.log( '\NRegex para números sólo al final de las líneas:' );
 // ?
 
 /*
-Verifique se a regex acima casa com o texto na variável `otherText`,
-mostrando o resultado no console.
-O resultado deve ser:
+Compruebe que la expresión regular anterior coincide con el texto de la variable "otroTexto",
+mostrando el resultado en la consola.
+El resultado debería ser:
 "[ '12', '6' ]"
 */
-var otherText = 'Silvio Santos, nome artístico de Senor Abravanel (Rio de Janeiro, 12\n de dezembro de 1930), é um apresentador de televisão e empresário brasileiro.\n Proprietário do Grupo Silvio Santos, que inclui empresas como a Liderança\n Capitalização (administradora da loteria Tele Sena), a Jequiti Cosméticos e o\n Sistema Brasileiro de Televisão (mais conhecido como SBT), Silvio Santos possui\n um patrimônio avaliado em aproximadamente 6\n bilhões de reais.';
-console.log( '\nNúmeros no final da linha:\n\n', otherText, '\n' );
+var otherText = 'Silvio Santos, de nombre artístico Señor Abravanel (Río de Janeiro, 12 de diciembre de 1930), es un presentador de televisión y empresario brasileño.\N-Propietario del Grupo Silvio Santos, que incluye empresas como Liderança Capitalização (administradora de la lotería Tele Sena), Jequiti Cosméticos y Sistema Brasileiro de Televisão (más conocido como SBT), Silvio Santos posee un patrimonio valorado en aproximadamente 6.000 mil millones de reales.'
+console.log( '\NNNnúmeros al final de la línea:\N', otherText, '\Nn' );
 // ?
 
 /*
-Vamos criar um método que vai testar se uma classe CSS existe em uma
-marcação HTML.
-- Primeiro, crie uma função chamada `hasClass`;
-- Essa função receberá dois parâmetros: o primeiro chamado `markup`, que
-será a marcação HTML testada, e o segundo `cssClass`, que será a classe que
-iremos testar;
-- A função deve retornar `true` se a classe existir na marcação e `false`
-caso contrário;
-- A marcação usada para testar deve ser a que está na variável `markup`
-abaixo;
-- Não altere a marcação na variável markup!
-- Faça o teste, mostrando no console o resultado para as seguintes classes:
-- "container", "text", "date", "excerpt" e "main".
-- O console deve exibir a frase:
-"[RESULTADO] para a classe [CLASSE]"
-- Ex. de resposta:
-"true para a classe container"
-- Teste uma classe por vez (um console.log por classe).
-- Lembrando que a função deve funcionar para qualquer marcação HTML e para
-qualquer classe que for testada. Os dados passados no exercício são somente
-para exemplificar.
+Vamos a crear un método que compruebe si una clase CSS existe en
+Marcaje HTML.
+- Primero, crea una función llamada `hasClass`;
+- Esta función tomará dos parámetros: el primero llamado `markup`, que
+el marcado HTML que se está probando, y el segundo `cssClass`, que es la clase que estamos
+clase para probar;
+- La función debe devolver `true` si la clase existe en el marcado y `false`.
+de lo contrario;
+- La marca utilizada para la prueba debe ser la de la variable `markup`.
+variable abajo;
+- ¡No cambie el marcado en la variable de marcado!
+- Ejecute la prueba, mostrando en la consola el resultado de las siguientes clases:
+- "contenedor", "texto", "fecha", "extracto" y "principal".
+- La consola debería mostrar la frase:
+"[RESULTADO] para la clase [CLASE]"
+- Respuesta Ex:
+"true para la clase de contenedor"
+- Pruebe una clase a la vez (un console.log por clase).
+- Recordando que la función debe funcionar para cualquier marcado HTML y para
+cualquier clase que se pruebe. Los datos pasados en el ejercicio son sólo
+para ejemplificar.
 */
-var markup = '<main>\n  <div class="container">\n    <span class="text date"></span>\n    <p class=\'excerpt\'></p>\n  </div>\n</main>';
-console.log( '\nQuais classes CSS existem na marcação abaixo?\n\n', markup, '\n' );
+var markup = '<main> <div class="container"> <span class="text date"></span> <p class='excerpt'></p> </div> </div> <main>';
+console.log( '\N¿Qué clases CSS existen en el marcado de abajo?\N', marcado, '\N' );
 // ?
