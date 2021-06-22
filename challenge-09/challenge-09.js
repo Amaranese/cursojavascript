@@ -1,107 +1,107 @@
 /*
-Crie uma IIFE que envolva todo o código desse arquivo. Faça também a
-indentação correta do código, para ficar dentro da IIFE.
+Crear un IIFE que envuelva todo el código de este archivo. También hacer el
+indentar el código correctamente, para que esté dentro del IIFE.
 */
 
 /*
-Analise as funções abaixo (`myFunction`, `myFunction2` e `myFunction3`, e
-ajuste o posicionamento das variáveis e funções internas, para que os códigos
-dentro de `console.log` que estão retornando `undefined` retornem o valor
-correto da variável ou função chamada.
+Revise las funciones siguientes (`miFunción`, `miFunción2` y `miFunción3`), y
+ajustar el posicionamiento de las variables y funciones internas, para que el código
+dentro de `console.log` que está devolviendo `undefined` devuelve el valor correcto del
+valor de la variable o función llamada.
 */
-function myFunction() {
-    console.log( 'Na função `myFunction`, o primeiro número é', number1 );
-    console.log( 'Na função `myFunction`, o segundo número é', number2 );
+función miFunción() {
+    console.log( 'En la función `miFunción`, el primer número es', número1 );
+    console.log( 'En la función `miFunción`, el segundo número es', número2 );
     var number1 = 10;
-    return number1 + number2;
+    devolver número1 + número2;
     var number2 = 20;
 }
-myFunction();
+miFunción();
 
 /*
-    myFunction2();
+    miFunción2();
 */
-function myFunction2() {
-    console.log( 'A soma de 10 e 20 é igual a', sum ? sum() : undefined );
+función miFunción2() {
+    console.log( 'La suma de 10 y 20 es igual a', sum ? sum() : undefined );
     var sum = function sum() {
-        return number1 + number2;
+        devolver número1 + número2;
     };
     var number1 = 10;
     var number2 = 20;
-    return sum();
+    devuelve la suma();
 }
-myFunction2();
+miFunción2();
 
 /*
-    myFunction3();
+    miFunción3();
 */
-function myFunction3() {
-    console.log( 'A soma de 40 e 50 é igual a', sum() );
+función miFunción3() {
+    console.log( 'La suma de 40 y 50 es igual a', sum() );
     var number2 = 50;
-    console.log( 'Na função myFunction3, number1 é igual a', number1 );
+    console.log( 'En la función miFunción3, número1 es igual a', número1 );
     var number1 = 40;
-    return sum();
-    function sum() {
-        return number1 + number2;
+    devuelve la suma();
+    función suma() {
+        devolver número1 + número2;
     };
 }
-myFunction3();
+miFunción3();
 
 /*
-No desafio anterior criamos uma calculadora, usando uma estrutura funcional.
-Agora vamos criar uma outra calculadora, usando uma outra abordagem :D
-- Crie uma função `calculator` que recebe dois valores (números)
-por parâmetro.
-- Essa função deve retornar uma outra função, que recebe um parâmetro
-chamado `callback`.
-- Esse `callback` será uma função, que passaremos por parâmetro ao invocar
-o retorno de `calculator`.
-- O retorno dessa segunda função deve ser a função de `callback` passada
-por parâmetro, INVOCADA, e passando a ela por parâmetro os dois valores
-que foram passadas para a primeira função `calculator`.
+En el reto anterior creamos una calculadora, utilizando una estructura funcional.
+Ahora vamos a crear otra calculadora, utilizando un enfoque diferente :D
+- Crear una función `calculadora` que tome dos valores (números)
+como parámetros.
+- Esta función debe devolver otra función, que recibe un parámetro
+llamado `callback`.
+- Este `callback` será una función que pasaremos como parámetro cuando invoquemos
+el retorno de `calculadora`.
+- El retorno de esta segunda función debe ser la función `callback' pasada
+y pasándole los dos valores
+que se pasaron a la primera función `calculadora`.
 */
 // ?
 
 /*
-Declare uma variável chamada `sum`, e atribua a ela a função `calculator`,
-passando dois números por parâmetro.
+Declarar una variable llamada `suma`, y asignarle la función `calculadora`,
+pasándole dos números como parámetros.
 */
 // ?
 
 /*
-Sabemos que `sum` agora tem uma função atribuída a ela, que é o retorno de
-`calculator`. E essa função espera um parâmetro `callback`. O `callback`
-tem dois parãmetros disponíveis, que são os números que você acabou de passar
-para a chamada à `calculator` acima.
-- Mostre no console o retorno da invocação de `sum`, passando por parâmetro
-uma função anônima que irá retornar a soma dos dois números que essa função
-anônima tem como seus argumentos.
+Sabemos que `suma` tiene ahora una función asignada, que es el retorno de
+`calculadora`. Y esa función espera un parámetro `callback`. El `callback`
+tiene dos parámetros disponibles, que son los números que acaba de pasar
+a la llamada de la "calculadora" anterior.
+- Muestra el resultado de la invocación de `suma` en la consola, pasando como parámetro
+una función anónima que devolverá la suma de los dos números que este
+tiene como argumentos.
 */
-console.log( 'O resultado da soma é:' );
+console.log( 'El resultado de la suma es:' );
 // ?
 
 /*
-Agora declare outra variáveis chamadas `subtraction`, `multiplication`,
-`division` e `mod`, e atribua à elas `calculator`, passando números
-diferentes para cada chamada.
+Ahora declara otras variables llamadas `resta`, `multiplicación`,
+`división` y `mod`, y asignarles `calculadora`, pasándoles diferentes
+para cada llamada.
 */
 // ?
 
 /*
-Mostre as variáveis acima no `console` (uma chamada de console por variável),
-criando a função de `callback` que faz o cálculo para subração, multiplicação,
-divisão e módulo (resto de divisão), conforme a função utilizada.
-As suas respostas devem estar abaixo dos `console.log` referentes à cada
-chamada.
+Mostrar las variables anteriores en `consola` (una llamada de consola por variable),
+crear la función `callback` que realiza el cálculo para la subracción, la multiplicación
+división y módulo (resto de la división), dependiendo de la función utilizada.
+Sus respuestas deben estar bajo el `console.log` para cada
+llamar.
 */
-console.log( 'O resultado da subtração é:' );
+console.log( 'El resultado de la resta es:' );
 // ?
 
-console.log( 'O resultado da multiplicação é:' );
+console.log( 'El resultado de la multiplicación es:' )
 // ?
 
-console.log( 'O resultado da divisão é:' );
+console.log( 'El resultado de la división es:' )
 // ?
 
-console.log( 'O resto da divisão é:' );
+console.log( 'El resto de la división es:' )
 // ?
