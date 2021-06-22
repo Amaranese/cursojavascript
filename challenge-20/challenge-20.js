@@ -1,105 +1,105 @@
 /*
-1. Envolva todo o conteúdo desse desafio em uma IIFE.
-2. Adicione a diretiva 'use strict';
-3. Passe por parâmetro para a IIFE os objetos window e document.
-4. Dessa vez não é necessário criar um HTML. Ele já existe, e vamos utilizar
-a marcação criada nele para fazer nosso desafio ;)
+Envuelve todo el contenido de este reto en un IIFE.
+2. Añade la directiva 'use strict';
+3. Pasa los objetos ventana y documento como parámetros a la IIFE.
+4. Esta vez no es necesario crear HTML. Ya existe, y utilizaremos
+el marcado creado en él para hacer nuestro reto ;)
 
-O HTML NÃO PODE ser alterado!
+El HTML NO puede cambiarse.
 */
 
 /*
-Ao carregar a página, pergunte ao usuário "Qual o seu nome?". Atribua o
-resultado à uma variável chamada `username`. Se o usuário não digitar um
-nome, `username` deve receber "Desconhecido".
-Com a resposta, mostre um alert com a mensagem "Bem vindo [USERNAME]!"
-*/
-// ?
-
-/*
-Agora, pergunte ao usuário "Qual o seu e-mail?", atribuindo o resultado à
-uma variável chamada `email`.
+Al cargar la página, pregunte al usuario "¿Cuál es su nombre?". Asignar el
+a una variable llamada `nombre de usuario`. Si el usuario no introduce un
+nombre, `nombre de usuario` debe ser establecido como "Desconocido".
+Con la respuesta, muestra una alerta con el mensaje "¡Bienvenido [USERNAME]!"
 */
 // ?
 
 /*
-- Selecione o input de "Nome", atribuindo-o à uma variável chamada
+Ahora, pregunta al usuario "¿Cuál es tu correo electrónico?", asignando el resultado a
+una variable llamada `email`.
+*/
+// ?
+
+/*
+- Seleccione la entrada "Nombre", asignándola a una variable llamada
 `$inputUsername`.
 */
 // ?
 
 /*
-- Selecione o input de "Email", atribuindo-o à uma variável chamada
+- Seleccione la entrada "Email", asignándola a una variable llamada
 `$inputEmail`.
 */
 // ?
 
 /*
-- Selecione o campo de "Mensagem", atribuindo-o à uma variável chamada
-`$message`.
+- Seleccione el campo "Mensaje", asignándolo a una variable llamada
+`$mensaje`.
 */
 // ?
 
 /*
-- Selecione o botão de envio do formulário, atribuindo-o à uma variável
-chamada `$button`.
+- Selecciona el botón de envío del formulario, asignándolo a una variable
+variable llamada `$button`.
 */
 // ?
 
 /*
-Preencha os campos de "Nome" e "Email" que estão no documento com os valores
-entrados pelo usuário.
+Rellene los campos "Nombre" y "Correo electrónico" del documento con los valores
+introducido por el usuario.
 */
 // ?
 
 /*
-Adicione um listener de evento de click ao botão que faça o seguinte:
-1. Verificar se todos os campos estão preenchidos:
-- Mostrar um alert para cada campo não preenchido, como abaixo:
-- Se o campo de "Nome" não estiver preenchido, mostrar:
-    - "Preencha o nome do usuário!"
-- Se o campo de "Email" não estiver preenchido, mostrar:
-    - "Preencha o e-mail!"
-- Se o campo de "Mensagem" não estiver preenchido, mostrar:
-    - "Preencha a mensagem!"
-- Se o campo de "Email" for inválido, mostrar:
-    - "Entre com um e-mail válido!"
+Añade un receptor de eventos de clic al botón que haga lo siguiente:
+1. Compruebe si todos los campos están rellenados:
+- Mostrar una alerta para cada campo no rellenado, como se indica a continuación:
+- Si el campo "Nombre" no está rellenado, mostrar:
+    - "¡Rellena el nombre de usuario!"
+- Si el campo "Correo electrónico" no está rellenado, mostrar:
+    - "¡Rellena el correo electrónico!"
+- Si el campo "Mensaje" no está rellenado, mostrar:
+    - "¡Rellena el mensaje!"
+- Si el campo "Correo electrónico" no es válido, se mostrará:
+    - "¡Introduce una dirección de correo electrónico válida!"
 
-2. Para verificar se o e-mail é válido use a função `isValidEmail`, passando
-o e-mail que foi entrado no campo de "Email" por parâmetro. (A função
-`isValidEmail` será criada logo abaixo).
+2. Para comprobar si el correo electrónico es válido utilice la función `isValidEmail`, pasando
+la dirección de correo electrónico que se introdujo en el campo "Correo electrónico" como parámetro. (El
+La función `isValidEmail` se creará más adelante).
 
-3. Se tudo estiver OK, pergunte ao usuário:
-    - "Tem certeza que deseja enviar o formulário?"
-Se for confirmado, mostre um alerta com a mensagem:
-    - "Enviado com sucesso!"
-Caso contrário, mostre um alerta com a mensagem:
-    - "Não enviado."
+3. Si todo está bien, pregunta al usuario:
+    - "¿Está seguro de que quiere enviar el formulario?"
+Si se confirma, muestra una alerta con el mensaje:
+    - "¡Enviado con éxito!"
+En caso contrario, muestra una alerta con el mensaje:
+    - "No se envía".
 */
 // ?
 
 /*
-Crie uma função chamada `isValidEmail`, que será usada na validação do
-envio do formulário.
-Essa função deve receber o e-mail por parâmetro e verificar se é um e-mail
-válido.
-As regras para validação são:
-    - O nome do usuário (antes do arroba), pode ser qualquer caractere
-    alfanumérico, incluindo o underscore, sinal de "+" e o ponto;
-    - Após o arroba, o domínio pode conter somente caracteres alfanuméricos
-    e o underscore;
-    - Para a extensão, o domínio deve vir seguido de um ponto, e no mínimo
+Crear una función llamada `isValidEmail` que se utilizará para validar el
+presentación de formularios.
+Esta función debe tomar un correo electrónico como parámetro y comprobar que es un
+correo electrónico.
+Las reglas de validación son:
+    - El nombre de usuario (antes de la atroba), puede ser cualquier carácter
+    carácter alfanumérico, incluido el guión bajo, el signo "+" y el punto;
+    - Después de la "arroba", el dominio sólo puede contener caracteres alfanuméricos
+    y el guión bajo;
+    - Para la extensión, el dominio debe ir seguido de un punto, y al menos
     2 caracteres alfanuméricos;
-    - O final do domínio é opcional, mas se existir, deve começar com um
-    ponto, seguido de no máximo 2 caracteres alfanuméricos.
+    - El final del dominio es opcional, pero si existe, debe comenzar con un punto
+    punto, seguido de un máximo de 2 caracteres alfanuméricos.
 
-Alguns e-mails válidos que podem ser usados para testar:
-    - "meu.email+categoria@gmail.com"
+Algunos correos electrónicos válidos que se pueden utilizar para hacer pruebas:
+    - "mi.email+categoria@gmail.com"
     - "juca_malandro@bol.com.br"
     - "pedrobala@hotmail.uy"
     - "sandro@culinaria.dahora"
 
-Alguns e-mails inválidos:
+Algunos correos electrónicos no válidos:
     - "walter-da-silva@maraca.br"
     - "rita-marica@titica.a.b"
     - "agua_@evida.br.com"
