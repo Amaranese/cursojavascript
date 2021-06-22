@@ -1,17 +1,17 @@
 /*
-O desafio de hoje será um pequeno projeto: um cronômetro!
-As regras para criação do cronômetro são as seguintes:
-1. Crie um arquivo index.html e adicione esse script a ele;
-2. Crie um campo `input` do tipo `text`, e inicie-o com um valor 0 (zero).
-Ele será o nosso cronômetro;
-3. Crie 3 botões para as ações do cronômetro: Start, Stop e Reset;
-4. Ao clicar em Start, o valor do campo deve ser incrementado de 1 em 1, a
+El reto de hoy será un pequeño proyecto: ¡un cronómetro!
+Las reglas para crear el cronómetro son las siguientes:
+1. Cree un archivo index.html y añada este script a él;
+2. Cree un campo `input` de tipo `text`, e inícielo con el valor 0 (cero).
+Este será nuestro temporizador;
+3. Cree 3 botones para las acciones del cronómetro: Iniciar, Parar y Reiniciar;
+4. Al hacer clic en Inicio, el valor del campo debe incrementarse de 1 en 1, cada
 cada segundo;
-5. Ao clicar em Stop, o cronômetro deve parar de contar;
-6. Ao clicar em Reset, o cronômetro deve zerar e parar de contar.
+5. Al hacer clic en Stop, el cronómetro debería dejar de contar;
+6. Cuando haga clic en Reiniciar, el cronómetro debería ponerse a cero y dejar de contar.
 
-Utilize o atributo data-js para nomear o campo e os botões. Você pode
-usar o nome que achar melhor, desde que ele seja semântico, ou seja, o nome
-dado ao elemento HTML deve definir o que o elemento é ou o que ele faz.
+Utilice el atributo data-js para nombrar el campo y los botones. Puedes
+utilice el nombre que considere mejor, siempre que sea semántico, es decir, que el nombre
+dado al elemento HTML debe definir lo que el elemento es o lo que hace.
 */
 // ?
