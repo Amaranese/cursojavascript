@@ -1,60 +1,60 @@
 /*
-Crie um array com 5 items (tipos variados).
+Crea un array de 5 elementos (de tipos variados).
 */
 // ?
 
 /*
-Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
-A função deverá retornar o array atualizado.
+Crea una función llamada `addItem` que añadirá elementos al array.
+La función debe devolver el array actualizado.
 */
 // ?
 
 /*
-Adicione um novo array ao array criado no início do desafio, com ao menos 3
-itens de tipos diferentes, mostrando o resultado no console.
+Añade una nueva matriz al array creado al principio del reto, con al menos 3
+elementos de diferentes tipos, mostrando el resultado en la consola.
 */
 // ?
 
 /*
-Mostre no console o segundo elemento desse último array, criado acima, com a
-frase:
-"O segundo elemento do segundo array é [ELEMENTO]."
+Mostrar el segundo elemento de este último array, creado anteriormente, con el
+sentencia:
+"El segundo elemento de la segunda matriz es [ELEMENTO]".
 */
 // ?
 
 /*
-Mostre no console quantos itens tem o primeiro array criado, com a frase:
-"O primeiro array tem [QUANTIDADE DE ITENS] itens."
+Muestra en la consola cuántos elementos tiene el primer array creado, con la sentencia
+"El primer array tiene [CANTIDAD DE ELEMENTOS] elementos".
 */
 // ?
 
 /*
-Agora mostre no console quantos itens tem o segundo array criado, com a frase:
-"O segundo array tem [QUANTIDADE DE ITENS] itens."
+Ahora muestra en la consola cuántos elementos tiene el segundo array creado, con la sentencia
+"La segunda matriz tiene [CANTIDAD DE ELEMENTOS] elementos".
 */
 // ?
 
 /*
-Utilizando a estrutura de repetição `while`, mostre no console todos os números
-pares entre 10 e 20, inclusive esses 2.
+Utilizando la estructura de bucle `mientras`, muestra todos los números pares entre el 10 y el 20
+entre 10 y 20, incluyendo estos 2.
 */
-console.log( 'Números pares entre 10 e 20:' );
+console.log( 'Números pares entre 10 y 20:' )
 // ?
 
 /*
-Na mesma ideia do exercício acima: mostre agora os números ímpares.
+La misma idea que en el ejercicio anterior: ahora muestra los números impares.
 */
-console.log( 'Números ímpares entre 10 e 20:' );
+console.log( 'Números impares entre 10 y 20:' )
 // ?
 
 /*
-Repita os mesmos exercícios feitos acima, mas agora usando o loop "for".
-Só vamos mudar o range:
-- No primeiro "for", mostre os números pares entre 100 e 120, inclusive eles;
-- No segundo "for", mostre os números ímpares entre 111 e 125, inclusive eles.
+Repite los mismos ejercicios anteriores, pero ahora utilizando el bucle "for".
+Sólo cambiaremos el rango:
+- En el primer "para", muestra los números pares entre 100 y 120, incluyéndolos;
+- En el segundo "para", muestra los números impares entre el 111 y el 125, incluyéndolos.
 */
-console.log( 'Números pares entre 100 e 120:' );
+console.log( 'Números pares entre 100 y 120:' );
 // ?
 
-console.log( 'Números ímpares entre 111 e 125:' );
+console.log( 'Números impares entre 111 y 125:' )
 // ?
