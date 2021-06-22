@@ -1,150 +1,150 @@
 /*
-Envolva todo o código desse desafio em uma IIFE.
+Envuelve todo el código de este reto en un IIFE.
 */
 
 /*
-Crie um array e mostre no console a representação em String desse array,
-usando o método visto na aula 13.
+Crea un array y muestra la representación en forma de cadena de ese array en la consola,
+utilizando el método visto en la lección 13.
 */
-console.log( 'O array em formato de string é:' );
+console.log( 'El array en formato de cadena es:' );
 // ?
 
 /*
-Crie 2 arrays `sul` e `sudeste`, que serão as regiões do Brasil.
-Cada array deve conter os estados dessa região.
-*/
-// ?
-
-/*
-Crie uma variável chamada `brasil`, que irá receber as duas regiões
-concatenadas. Mostre o `brasil` no console.
-*/
-console.log( '\nAlguns Estados do Brasil:' );
-// ?
-
-/*
-Adicione 3 novos estados da região Norte no início do array e mostre no console.
-*/
-console.log( '\nMais estados adicionados:' );
-// ?
-
-/*
-Remova o primeiro estado do array `brasil` e mostre-o no console.
-*/
-console.log( '\nEstado removido:' );
-// ?
-
-/*
-Crie um novo array chamado `newSul`, que receba somente os estados do sul,
-pegando do array `brasil`. Não remova esses itens de `brasil`.
+Crea 2 arrays `sul` y `sudeste`, que serán las regiones de Brasil.
+Cada matriz debe contener los estados de esa región.
 */
 // ?
 
 /*
-Mostre no console os estados que estão em `newSul`.
+Crear una variable llamada `brasil` para mantener las dos regiones
+concatenado. Mostrar `brasil` en la consola.
 */
-console.log( '\nEstados do Sul do Brasil:' );
+console.log( '\N- Algunos Estados en Brasil:' );
 // ?
 
 /*
-Mostre no console todos os estados que estão em `brasil`.
+Añade 3 nuevos estados de la región Norte al principio de la matriz y muéstralos en la consola.
 */
-console.log( '\nAlguns Estados do Brasil:' );
+console.log( '\Nmás estados añadidos:' ); ?
 // ?
 
 /*
-Crie um novo array chamado `nordeste`, que tenha os estados do nordeste.
+Quitar el primer estado de la matriz `brasil` y mostrarlo en la consola.
 */
+console.log( '\Nmás estados eliminados:' ); //
 // ?
 
 /*
-Mostre no console os estados do nordeste.
-*/
-console.log( '\nEstados do Nordeste:' );
-// ?
-
-/*
-Remova de `brasil` os estados do `sudeste`, colocando-os em uma variável
-chamada `newSudeste`.
+Crea un nuevo array llamado `newSul`, para contener sólo los estados del sur,
+tomando de la matriz `brasil`. No elimine estos elementos de `brasil`.
 */
 // ?
 
 /*
-Adicione os estados do `nordeste` ao array `brasil`. Esses estados devem
-ficar no mesmo nível que os estados já existentes, não em um array separado.
+Muestra a la consola qué estados están en `newSul`.
+*/
+console.log( '\N-Estados del Sur:' );
+// ?
+
+/*
+Muestra en la consola todos los estados que están en `brasil`.
+*/
+console.log( '\N-Estados del Sur de Brasil:' ); // ?
+// ?
+
+/*
+Crea un nuevo array llamado `nordeste`, que tiene los estados del noreste.
 */
 // ?
 
 /*
-Mostre no console os estados em `newSudeste`.
+Muestra los estados del noreste en la consola.
 */
-console.log( '\nEstados em newSudeste:' );
+console.log( 'Estados del noreste:' );
 // ?
 
 /*
-Mostre no console os estados do `brasil`.
-*/
-console.log( '\nAlguns estados do Brasil:' );
-// ?
-
-/*
-usando forEach, percorra o array `brasil` e gere um novo array chamado
-`newBrasil`. Esse array deve ter cada item como um objeto, com as
-propriedades:
-- `id`: que será o índice do array `brasil`,
-- `estado`: que será o estado do array `brasil`.
+Eliminar los estados de `sudeste` de `brasil`, poniéndolos en una variable
+variable llamada `nuevaSudeste`.
 */
 // ?
 
 /*
-Mostre o array `newBrasil` no console
-*/
-console.log( '\nnewBrasil:' );
-// ?
-
-/*
-Percorra o array `brasil` e verifique se os estados tem mais de 7 letras cada,
-atribuindo o resultado à uma variável. Se tiver, mostre no console a frase:
-- "Sim, todos os estados tem mais de 7 letras!"
-Senão, mostre no console:
-- "Nem todos os estados tem mais de 7 letras!"
-*/
-console.log( '\nTodos os estados de `brasil` tem mais de 7 letras?' );
-// ?
-
-/*
-Percorra o array `brasil` e verifique se o Ceará está incluído, atribuindo o
-resultado à uma variável. Se esse estado existir no array, mostrar a frase no
-console:
-- "Ceará está incluído!"
-Senão, mostrar a frase:
-- "Ceará não foi incluído :("
-*/
-console.log( '\nCeará está incluído em `brasil`?' );
-// ?
-
-/*
-Percorra o array `newBrasil` e crie um novo array que some 1 no ID de cada
-objeto desse array, e adicione a frase abaixo na propriedade `estado`:
-- "[ESTADO] pertence ao Brasil."
-Atribua o novo array a uma variável chamada `map`.
+Añade los estados `nordeste` a la matriz `brasil`. Estos estados deben ser
+estar en el mismo nivel que los estados existentes, no en una matriz separada.
 */
 // ?
 
 /*
-Mostre no console o array criado acima:
+Mostrar los estados en `newSoutheast` en la consola.
 */
-console.log( '\nnewBrasil agora com mais informações:' );
+console.log( '\N-Estados en nuevaSudeste:' );
 // ?
 
 /*
-Filtre o array criado acima, retornando somente os estados que tiverem
-ID par. Atribua o valor à uma variável chamada `filter`.
+Mostrar en la consola los estados en `brasil`.
+*/
+console.log( '\NAlgunos Estados en la nuevaSudeste:' ); // ?
+// ?
+
+/*
+usando forEach, recorre el array `brasil` y genera un nuevo array llamado
+`nuevoBrasil`. Esta matriz debe tener cada elemento como un objeto, con el
+propiedades:
+- `id`: que será el índice del array `brasil`,
+- state`: que será el estado del array `brasil`.
 */
 // ?
 
 /*
-Mostre o array filtrado acima no console.
+Mostrar la matriz `newBrasil` en la consola
 */
-console.log( '\nEstados com ID par:' );
+console.log( '\NnuevoBrasil:' );
+// ?
+
+/*
+Recorre la matriz `brasil` y comprueba si los estados tienen más de 7 letras cada uno,
+asignando el resultado a una variable. Si lo hace, muestra la declaración en la consola:
+- "¡Sí, todos los estados tienen más de 7 letras!"
+De lo contrario, se mostrará en la consola:
+- "¡No todos los estados tienen más de 7 letras!"
+*/
+console.log( '¿Todos los estados de `brasil` tienen más de 7 letras?' );
+// ?
+
+/*
+Recorre el array `brasil` y comprueba si Ceará está incluido, asignando el
+a una variable. Si ese estado existe en el array, muestra la declaración en el
+consola:
+- "¡Ceará está incluido!"
+En caso contrario, muestra la frase:
+- "Ceará no está incluido :("
+*/
+console.log( '\N¿Ceará está incluido en `brasil`?' );
+// ?
+
+/*
+Recorre el array `nuevoBrasil` y crea un nuevo array que añada 1 al ID de cada
+en este array, y añade la siguiente frase a la propiedad `state`:
+- "[ESTADO] pertenece a Brasil".
+Asigna el nuevo array a una variable llamada `map`.
+*/
+// ?
+
+/*
+Muestra en la consola el array creado anteriormente:
+*/
+console.log( '\N-NovedadBrasil ahora con más información:' );
+// ?
+
+/*
+Filtrar la matriz creada anteriormente, devolviendo sólo los estados que tienen
+incluso ID. Asigna el valor a una variable llamada `filtro`.
+*/
+// ?
+
+/*
+Muestra la matriz filtrada anterior en la consola.
+*/
+console.log( '\N-Estados con ID par:' );
 // ?
