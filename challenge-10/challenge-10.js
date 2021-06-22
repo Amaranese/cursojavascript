@@ -1,113 +1,113 @@
 /*
-Crie uma IIFE que envolva todo esse arquivo (inclusive esse comentário),
-e faça a indentação correta.
+Crea un IIFE que envuelva todo este archivo (incluyendo este comentario),
+y la sangría es correcta.
 */
 
 /*
-Sem alterar os códigos nos `console.log` abaixo, faça com que o retorno
-deles seja "true", usando os Wrapper Objects como "conversores" nos valores
-das variáveis. Analise o que está sendo impresso no console para saber como
-resolver o problema corretamente.
+Sin cambiar el código en el `console.log` de abajo, haz el retorno
+utilizando los Objetos Envolventes como "convertidores" de los valores de las variables.
+de las variables. Analiza lo que se imprime en la consola para ver cómo
+resolver el problema adecuadamente.
 */
 var five = '5';
-console.log( five + ' é número?', typeof five === 'number' );
+console.log( five + ' ¿es un número?', typeof five == 'number' );
 
 var concat = 10 + 10;
-console.log( '"' + concat + '" é uma string? E é igual a "1010"?', typeof concat === 'string' );
+console.log( '"' + concat + '" ¿es una cadena? ¿Y es igual a '1010'?', typeof concat === 'string' );
 
 /*
-Voltando ao exemplo da calculadora, vamos utilizar mais uma abordagem
-funcional, mas dessa vez, separando algumas responsabilidades.
-- Primeiro, crie um objeto chamado `operation` que terá as propriedades:
+Volviendo al ejemplo de la calculadora, utilicemos otra
+enfoque, pero esta vez separando algunas responsabilidades.
+- En primer lugar, crea un objeto llamado `operación` que tendrá las propiedades:
 '+', '-', '*', '/' e '%'.
-- Cada propriedade vai receber uma função (logo, elas serão métodos), e essa
-função receberá dois parâmetros e retornará a operação referente à sua
-propriedade, usando os valores passados por parâmetro.
+- A cada propiedad se le dará una función (por lo que serán métodos), y esa función
+recibirá dos parámetros y devolverá la operación de su
+utilizando los valores pasados como parámetros.
 */
 // ?
 
 /*
-Crie uma função chamada `isOperatorValid`, que receberá um operador por
-parâmetro.
-- Essa função será responsável por verificar se o operador passado por
-parâmetro a ela é válido, ou seja, se ele é igual a '+', '-', '*', '/' ou
+Crea una función llamada `isOperatorValid` que tomará un operador por parámetro.
+como parámetro.
+- Esta función comprobará si el operador que se le pasa como
+es válido, es decir, si es igual a "+", "-", "*", "/", o
 '%'.
-- Se for igual a qualquer um desses, ela deverá retornar "true".
-Caso contrário, "false".
-- O desafio é fazer o retorno sem usar "if" ou "switch".
+- Si es igual a alguno de ellos, debería devolver "true".
+En caso contrario, "falso".
+- El reto es hacer la devolución sin usar "if" o "switch".
 */
 // ?
 
 /*
-Agora vamos criar a calculadora.
-- Crie uma função chamada `calculator`, que receberá como parâmetro um
+Ahora vamos a crear la calculadora.
+- Crear una función llamada `calculadora` que tomará como parámetro un
 operador;
-- Se o operador não for válido, a função deve retornar "false";
-- Se o operador for válido, retornar uma segunda função que receberá dois
-parâmetros;
-- Se algum dos parâmetros não for um número, retornar "false";
-- Senão, retornar o método do objeto "operation" criado acima, baseado no
-operador passado para a função "calculator", e passando para esse método
-os dois parâmetros da função de retorno de "calculator".
+- Si el operador no es válido, la función debe devolver "false";
+- Si el operador es válido, devuelve una segunda función que tomará dos
+parámetros;
+- Si uno de los parámetros no es un número, devuelve "false";
+- En caso contrario, devuelve el método del objeto "operación" creado anteriormente, basado en el
+pasado a la función "calculadora", y pasando a este método
+los dos parámetros de la función de retorno de "calculadora".
 */
 // ?
 
 /*
-Crie uma função chamada "showOperationMessage" que recebe três parâmetros:
-- o operador, o primeiro número e o segundo número. O retorno da função
-deve ser a frase:
-'A operação [NUMBER1] [OPERATOR] [NUMBER2] =';
-Essa função mostrará a mensagem da operação que criaremos mais abaixo.
+Crea una función llamada "showOperationMessage" que toma tres parámetros:
+- el operador, el primer número y el segundo número. El retorno de la función
+debería ser la frase:
+'La operación [NÚMERO1] [OPERADOR] [NÚMERO2] =';
+Esta función mostrará el mensaje de la operación que crearemos más adelante.
 */
 // ?
 
 /*
-Crie uma função chamada "showErrorMessage" que recebe um parâmetro: o
-operador da operação cálculo, quando a operação não for válida.
-Essa função deverá retornar a frase:
-'Operação "[OPERATOR]" não permitida!'
+Cree una función llamada "showErrorMessage" que tome un parámetro: el
+operador de la operación de cálculo, cuando la operación no es válida.
+Esta función debe devolver la sentencia:
+'¡Operación "[OPERADOR]" no permitida!'
 */
 // ?
 
 /*
-Nossa calculadora está pronta! Agora vamos testá-la:
-PASSO 1:
-- Declare 3 variáveis: "number1" e "number2", iniciando com valor zero, e
-"operationSignal", sem valor por enquanto.
+¡Nuestra calculadora está lista! Ahora vamos a probarlo:
+PASO 1:
+- Declarar 3 variables: "número1" y "número2", que comienzan con un valor de cero, y
+"operationSignal", sin valor por ahora.
 */
 // ?
 
 /*
-PASSO 2:
-Atribua à variável operationSignal o operador de soma, e declare uma
-variável chamada "sum", que receba a função "calculator", passando por
-parâmetro a variável que recebeu o sinal da operação.
+PASO 2:
+Asigna a la variable operationSignal el operador de suma, y declara un
+variable llamada "suma" que recibe la función "calculadora", pasando
+la variable que recibe el signo de la operación.
 */
 // ?
 
 /*
-PASSO 3:
-"sum" agora é uma função, e, se o sinal correto não foi passado para a
-função "calculator", "sum" será false. Certifique-se de que "sum" não é
-"false", e então atribua às variáveis "number1" e "number2", dois números
-que serão os operandos da operação de soma.
-Após isso, mostre no console o resultado da operação, passando dois
-parâmetros para o método "log" de "console":
-- O primeiro será a mensagem da operação (usando a função criada acima);
-- O segundo, a função de soma, passando os dois operandos.
-- Se "sum" for "false", mostrar no console a mensagem de erro.
+PASO 3:
+"suma" es ahora una función, y si el signo correcto no se pasó a la
+calculadora", la "suma" será falsa. Asegúrese de que "suma" no es
+"false", y luego asignar a las variables "number1" y "number2", dos números
+que serán los operandos de la operación de suma.
+A continuación, muestra el resultado de la operación en la consola, pasando dos
+al método "log" de "console":
+- El primero será el mensaje de la operación (utilizando la función creada anteriormente);
+- La segunda, la función suma, pasando los dos operandos.
+- Si la "suma" es "falsa", muestra el mensaje de error en la consola.
 */
 // ?
 
 /*
-Repita desde o "PASSO 2" com as operações de subtração, multiplicação,
-divisão e resto. Crie variáveis com os nomes "subtraction",
-"multiplication", "division" e "mod".
+Repite desde el "PASO 2" con las operaciones de sustracción, multiplicación
+división y resto. Crear variables con los nombres "sustracción",
+"multiplicación", "división" y "mod".
 */
 // ?
 
 /*
-Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
-a mensagem de erro será mostrada no console.
+Repita el PASO 2 de nuevo, pero pasando un operador no válido, para ver si
+el mensaje de error se mostrará en la consola.
 */
 // ?
